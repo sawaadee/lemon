@@ -1,0 +1,7 @@
+# File: .gitignore
+# Purpose: Keep Python build leftovers and editor files out of the repository.
+# Created: 2026-11-25
+
+__pycache__/
+*.pyc
+.DS_Store
