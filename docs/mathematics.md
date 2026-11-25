@@ -26,26 +26,26 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [Lean Reservoir](https://reservoir.lean-lang.org) | Index of Lean packages beyond Mathlib |  | Web | Per package | Checked |
 | CSLib | Theoretical computer science library in Lean |  | GitHub | Check repo | Partly checked |
 | [Equational Theories Project](https://teorth.github.io/equational_theories/) | Lean project settling implications between equational laws of magmas | 1,307 Lean files, many generated (per project chat) | Web, GitHub | Check repo | Partly checked |
-| [Fermat's Last Theorem project](https://github.com/ImperialCollegeLondon/FLT) | Ongoing Lean formalisation of the proof of Fermat's Last Theorem |  | GitHub | Apache 2.0 | Not checked |
-| [Formal Conjectures](https://github.com/google-deepmind/formal-conjectures) | Open conjectures stated formally in Lean |  | GitHub | Apache 2.0 | Not checked |
+| [Fermat's Last Theorem project](https://github.com/ImperialCollegeLondon/FLT) | Ongoing Lean formalisation of the proof of Fermat's Last Theorem |  | GitHub | Apache 2.0 | Checked |
+| [Formal Conjectures](https://github.com/google-deepmind/formal-conjectures) | Open conjectures stated formally in Lean |  | GitHub | Apache 2.0 | Checked |
 | [Isabelle Archive of Formal Proofs](https://isa-afp.org) | Journal-style archive of Isabelle proof developments | 1,024 entries, about 325,400 lemmas, about 5.42M lines, 607 authors | Web, download | BSD-style or LGPL | Checked |
 | [Isabelle distribution libraries](https://isabelle.in.tum.de) | HOL base library, HOL-Analysis and others shipped with Isabelle | About 900,000 lines in Isabelle2025 | Download | BSD-style | Checked |
 | [Mathematical Components (Rocq)](https://math-comp.github.io) | Algebra and finite group theory library for Rocq, formerly Coq |  | GitHub, opam | CeCILL-B | Not checked |
 | [Rocq package ecosystem](https://rocq-prover.org) | Standard library and opam packages for the Rocq prover |  | opam | Per package | Not checked |
-| [UniMath](https://github.com/UniMath/UniMath) | Univalent mathematics library in Rocq |  | GitHub | Check repo | Not checked |
-| [Coq-HoTT](https://github.com/HoTT/Coq-HoTT) | Homotopy type theory library for Rocq |  | GitHub | BSD-style | Not checked |
+| [UniMath](https://github.com/UniMath/UniMath) | Univalent mathematics library in Rocq |  | GitHub | Permissive, MIT-style UniMath license | Checked |
+| [Coq-HoTT](https://github.com/HoTT/Coq-HoTT) | Homotopy type theory library for Rocq |  | GitHub | BSD 2-clause | Checked |
 | [agda-unimath](https://unimath.github.io/agda-unimath/) | Univalent mathematics library in Agda |  | Web, GitHub | MIT | Not checked |
-| [Agda standard library](https://github.com/agda/agda-stdlib) | Core library of definitions and lemmas for Agda |  | GitHub | MIT | Not checked |
-| [Cubical Agda library](https://github.com/agda/cubical) | Library for cubical type theory in Agda |  | GitHub | MIT | Not checked |
+| [Agda standard library](https://github.com/agda/agda-stdlib) | Core library of definitions and lemmas for Agda |  | GitHub | MIT | Checked |
+| [Cubical Agda library](https://github.com/agda/cubical) | Library for cubical type theory in Agda |  | GitHub | MIT, with exceptions for individual files | Checked |
 | [1Lab](https://1lab.dev) | Formalised and explained reference for univalent mathematics in Agda |  | Web, GitHub | Check site | Not checked |
 | [Metamath set.mm](https://us.metamath.org) | Theorems proved from ZFC axioms with every step explicit | Tens of thousands of theorems. Not checked | Web, GitHub | CC0 | Not checked |
 | [Metamath other databases](https://us.metamath.org) | Databases beside set.mm: intuitionistic logic, New Foundations, quantum logic | iset.mm 14,462 proofs, nf.mm 5,981, ql.mm 1,178 (mailing-list count) | Web, GitHub | CC0 | Checked |
 | [Mizar Mathematical Library](http://mizar.org) | Articles of formalised mathematics in the Mizar language |  | Download | Check site | Not checked |
-| [HOL Light](https://github.com/jrh13/hol-light) | Prover with a large analysis and geometry library |  | GitHub | BSD-style | Not checked |
+| [HOL Light](https://github.com/jrh13/hol-light) | Prover with a large analysis and geometry library |  | GitHub | BSD-style. Some files under other licenses | Checked |
 | [HOL4](https://hol-theorem-prover.org) | Prover with libraries for mathematics and verification |  | GitHub | BSD-style | Not checked |
-| [Flyspeck](https://github.com/flyspeck/flyspeck) | Formal proof of the Kepler conjecture in HOL Light and Isabelle |  | GitHub | Check repo | Not checked |
+| [Flyspeck](https://github.com/flyspeck/flyspeck) | Formal proof of the Kepler conjecture in HOL Light and Isabelle |  | GitHub | MIT | Checked |
 | [ACL2 community books](https://www.cs.utexas.edu/~moore/acl2/) | Collection of ACL2 lemma libraries |  | GitHub | BSD-style | Not checked |
-| [NASA PVS Library](https://github.com/nasa/pvslib) | Collection of PVS developments in mathematics and engineering |  | GitHub | NASA open source | Not checked |
+| [NASA PVS Library](https://github.com/nasa/pvslib) | Collection of PVS developments in mathematics and engineering |  | GitHub | Varies per library. See top.pvs in each | Checked |
 | [TPTP](https://www.tptp.org) | Problem library for automated theorem provers |  | Download | Check site | Not checked |
 | [Logipedia](http://logipedia.inria.fr) | Proofs translated between provers through Dedukti |  | Web | Check site | Not checked |
 | [OpenTheory](https://www.gilith.com/opentheory/) | Packages of theorems shareable between HOL provers |  | Web | Check site | Not checked |
@@ -129,11 +129,11 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [Herald](https://github.com/frenzymath/herald_translator) | Mathlib statements paired with natural-language versions |  | GitHub, Hugging Face | Check repo | Checked |
 | [Lean Workbook](https://huggingface.co/datasets/InternLM/Lean-Workbook) | Competition-style problems formalised in Lean | 57,000 problems, about 5,000 with formal proofs | Hugging Face | Check dataset card | Checked |
 | [TheoremSearch dataset](https://huggingface.co/datasets/uw-math-ai/theorem-search-dataset) | The statements behind TheoremSearch as a downloadable dataset | Over 9 million statements | Hugging Face | Check dataset card | Checked |
-| [miniF2F](https://github.com/openai/miniF2F) | Benchmark of formalised competition problems across provers |  | GitHub | Check repo | Not checked |
-| [ProofNet](https://github.com/zhangir-azerbayev/ProofNet) | Undergraduate statements paired in natural language and Lean |  | GitHub | MIT | Not checked |
-| [PutnamBench](https://github.com/trishullab/PutnamBench) | Putnam competition problems formalised in several provers |  | GitHub | Check repo | Not checked |
-| [NaturalProofs](https://github.com/wellecks/naturalproofs) | Theorems, proofs and references from ProofWiki, Stacks and textbooks |  | GitHub | Check repo | Not checked |
+| [miniF2F](https://github.com/openai/miniF2F) | Benchmark of formalised competition problems across provers | Repository last updated in 2022 | GitHub | Apache 2.0 (Lean), MIT (Metamath), FreeBSD (HOL Light) | Checked |
+| [ProofNet](https://github.com/zhangir-azerbayev/ProofNet) | Undergraduate statements paired in natural language and Lean |  | GitHub | MIT | Checked |
+| [PutnamBench](https://github.com/trishullab/PutnamBench) | Putnam competition problems formalised in several provers |  | GitHub | Apache 2.0 (Lean 4, Isabelle), MIT (Coq) | Checked |
+| [NaturalProofs](https://github.com/wellecks/naturalproofs) | Theorems, proofs and references from ProofWiki, Stacks and textbooks |  | GitHub | MIT | Checked |
 | [Proof-Pile](https://huggingface.co/datasets/hoskinson-center/proof-pile) | Mixed corpus of informal and formal mathematics |  | Hugging Face | Per source | Not checked |
-| [CoqGym](https://github.com/princeton-vl/CoqGym) | Proofs extracted from Rocq projects for training provers |  | GitHub | Check repo | Not checked |
+| [CoqGym](https://github.com/princeton-vl/CoqGym) | Proofs extracted from Rocq projects for training provers |  | GitHub | LGPL 2.1 | Checked |
 
 [Back to categories](#categories)
