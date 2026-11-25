@@ -109,6 +109,6 @@ The script needs Python 3.9 or newer and no extra packages.
 ## Known gaps
 
 - Multilingual sources are listed for their English coverage only. Their quality for other languages was not assessed.
-- Two sources could not be checked because their sites refuse automated readers: MathOverflow and Mathematics Stack Exchange.
+- Some rows are only partly checked, mostly because the source's site does not state a license on its home page.
 - The Someya English lemma list has a confirmed address, but its size is not confirmed.
 - Scale figures go out of date quickly. Each one names the version or date it applies to where that is known.

@@ -67,8 +67,8 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [Encyclopedia of Mathematics](https://encyclopediaofmath.org) | Reference wiki based on the Springer encyclopedia | More than 8,000 entries covering nearly 50,000 notions | Web | Original articles copyright Springer. New wiki content CC BY-SA | Checked |
 | [PlanetMath](https://planetmath.org) | Community mathematics encyclopedia |  | Web, GitHub | CC BY-SA 2.5 | Checked |
 | [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov) | Identities and properties of special functions | Version 1.2.8, released 2026-09-15 | Web | See the NIST copyright notice | Checked |
-| [MathOverflow](https://mathoverflow.net) | Research-level questions and answers, often the only written source of a folklore lemma |  | Web, data dumps | CC BY-SA | Not checked |
-| [Mathematics Stack Exchange](https://math.stackexchange.com) | Questions and answers at all levels |  | Web, data dumps | CC BY-SA | Not checked |
+| [MathOverflow](https://mathoverflow.net) | Research-level questions and answers, often the only written source of a folklore lemma |  | Web, Stack Exchange API | CC BY-SA for user contributions. Version not stated in the footer | Checked |
+| [Mathematics Stack Exchange](https://math.stackexchange.com) | Questions and answers at all levels |  | Web, Stack Exchange API | CC BY-SA for user contributions. Version not stated in the footer | Checked |
 | [Tricki](https://www.tricki.org) | Wiki of proof techniques. Static snapshot from August 2020, no longer maintained |  | Web | Not stated on the site | Checked |
 | [Erdős Problems](https://www.erdosproblems.com) | Database of problems posed by Paul Erdős with their status | 1,221 problems in the community data repository | Web, GitHub data repository | Apache 2.0 for the community data repository | Checked |
 | [Open Problem Garden](http://www.openproblemgarden.org) | Collection of open problems | Category counts add up to 713, with some problems in more than one category | Web | Check site | Checked |

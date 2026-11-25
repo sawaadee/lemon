@@ -18,8 +18,8 @@ Every source has a status that says how far to trust its row.
 
 | Status | Meaning | Sources |
 | --- | --- | --- |
-| Checked | The scale figure or key facts were confirmed against the source or a citable reference. | 135 |
+| Checked | The scale figure or key facts were confirmed against the source or a citable reference. | 137 |
 | Partly checked | The source was confirmed to exist, but at least one detail was not confirmed. | 24 |
-| Not checked | Recorded from prior knowledge. The link, license and scale may be out of date. | 2 |
+| Not checked | Recorded from prior knowledge. The link, license and scale may be out of date. | 0 |
 
 The date of each check is in the `last_checked` column of [data/sources.csv](../data/sources.csv).
