@@ -57,6 +57,7 @@ docs/linguistics.md        Linguistic sources by category. Generated.
 docs/mathematics.md        Mathematical sources by category. Generated.
 scripts/build_catalog.py   Validates the CSV and generates docs/.
 .github/workflows/check.yml  Runs the validation on every push.
+LICENSE                    MIT license for the catalog and the script.
 ```
 
 `data/sources.csv` is the single source of truth. Everything in `docs/` is generated from it, so do not edit those pages by hand.
@@ -121,3 +122,9 @@ The script needs Python 3.9 or newer and no extra packages.
 - Some rows are only partly checked, mostly because the source's site does not state a license on its home page.
 - The Someya English lemma list has a confirmed address, but its size is not confirmed.
 - Scale figures go out of date quickly. Each one names the version or date it applies to where that is known.
+
+## License
+
+The catalog, the generated pages and the script are released under the [MIT License](LICENSE). You may reuse them for any purpose if you keep the copyright notice.
+
+This license covers the catalog only. Each source listed in it has its own license, shown in the License column.
