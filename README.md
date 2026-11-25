@@ -38,7 +38,7 @@ Every source has a status.
 | Partly checked | The source was confirmed to exist, but at least one detail was not confirmed. |
 | Not checked | Recorded from prior knowledge. The link, license and scale may be out of date. |
 
-Most rows are not checked yet. Confirm the license on the source's own site before you depend on it. The current counts per status are in [docs/README.md](docs/README.md).
+Most rows are checked, but a check covers the facts in the row, not every term of a license. Confirm the license on the source's own site before you depend on it. The current counts per status are in [docs/README.md](docs/README.md).
 
 ## Layout
 
@@ -109,5 +109,6 @@ The script needs Python 3.9 or newer and no extra packages.
 ## Known gaps
 
 - Multilingual sources are listed for their English coverage only. Their quality for other languages was not assessed.
-- One row, the BNC-based English lemma list, has no located source.
+- Three sources could not be checked because their sites refuse automated readers: OLAC, MathOverflow and Mathematics Stack Exchange.
+- The Someya English lemma list has a confirmed address, but its size is not confirmed.
 - Scale figures go out of date quickly. Each one names the version or date it applies to where that is known.

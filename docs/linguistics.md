@@ -41,7 +41,7 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
-| [Wiktionary](https://www.wiktionary.org) | Dictionary entries with lemma categories per language |  | Web, XML dumps | CC BY-SA | Not checked |
+| [Wiktionary](https://www.wiktionary.org) | Dictionary entries with lemma categories per language | English edition: 10,118,203 entries with English definitions, from over 4,900 languages | Web, XML dumps | CC BY-SA 4.0 and GFDL, dual-licensed | Checked |
 | [Kaikki.org (Wiktextract)](https://kaikki.org) | Wiktionary converted to structured JSONL with forms, senses and etymology | Rebuilt every few days from Wiktionary dumps | JSONL download | Same as Wiktionary (CC BY-SA) | Checked |
 | [DBnary](http://kaiko.getalp.org/about-dbnary/) | Wiktionary editions published as OntoLex-Lemon linked data | 28 Wiktionary language editions | SPARQL, Turtle dumps, linked data | CC BY-SA 4.0 data. MIT extractor code | Checked |
 | [Oxford English Dictionary](https://www.oed.com) | Historical dictionary. Its headword list is the reference inventory of English lemmas |  | Subscription | Proprietary. Subscription terms not confirmed on the home page | Partly checked |
@@ -62,7 +62,7 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | [Global WordNet Association](http://globalwordnet.org) | Association behind the Global WordNet Conference and the Global WordNet Grid |  | Web |  | Checked |
 | [FrameNet](https://framenet.icsi.berkeley.edu) | English lexical units grouped by semantic frames | 13,687 entries per a 2023 survey | Download on request, NLTK | Check site | Checked |
 | [VerbNet](https://verbs.colorado.edu/verbnet/) | English verb lemmas grouped into classes with thematic roles | v3.4 on GitHub. v3.3 is the latest release on the website | Download | Not stated on the site | Checked |
-| [VerbAtlas](https://verbatlas.org) | Verb synsets from BabelNet grouped into frames |  | Web, download | Check site | Not checked |
+| [VerbAtlas](https://verbatlas.org) | Hand-built resource that groups all WordNet verb synsets into frames with shared semantic roles | v1.0: 466 frames and 26 semantic roles. The site did not load for an automated check | Web, download, REST API | Check site | Partly checked |
 
 [Back to categories](#categories)
 
@@ -88,16 +88,16 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
-| BNC-based English lemma list | Maps English word forms to lemmas | 186,000 forms to 84,000 lemmas, as stated in an unsourced summary. Not checked, source not located |  |  | Not checked |
+| [Someya English lemma list (e_lemma)](http://www.lexically.net/downloads/BNC_wordlists/e_lemma.txt) | English form-to-lemma list by Yasumasa Someya, used with AntConc and WordSmith | Size not confirmed. An unsourced summary gives 186,000 forms to 84,000 lemmas | Text download | Not confirmed | Partly checked |
 | [Kilgarriff BNC lemma frequency list](https://www.kilgarriff.co.uk/bnc-readme.html) | Lemmatised frequency list from the British National Corpus | 6,318 lemmas, each with more than 800 occurrences in the BNC | Text download | No terms stated | Checked |
 | [British National Corpus](http://www.natcorp.ox.ac.uk) | Corpus of about 100 million words of written and spoken English |  | Download from the Oxford Text Archive | BNC User Licence | Checked |
 | [COCA frequency lists](https://www.wordfrequency.info) | Lemma frequency lists from the Corpus of Contemporary American English | Top 5,000 free. Top 60,000 lemmas paid. Based on the one-billion-word COCA | Download | Proprietary | Checked |
 | [New General Service List](https://www.newgeneralservicelist.com) | Core high-frequency English lemmas for learners | 2,809 words | Download | Creative Commons, commercial use allowed. Variant not named on the home page | Checked |
-| [Academic Word List](https://www.wgtn.ac.nz/lals/resources/academicwordlist) | 570 word families common in academic English |  | Web | Check site | Not checked |
-| [Oxford 3000 and 5000](https://www.oxfordlearnersdictionaries.com/wordlists/) | Graded core vocabulary lists for learners |  | Web, PDF | Proprietary, free to read | Not checked |
+| [Academic Word List](https://www.wgtn.ac.nz/lals/resources/academicwordlist/information) | 570 word families common in academic English | 570 word families, outside the 2,000 most frequent English words | Web | Check site | Checked |
+| [Oxford 3000 and 5000](https://www.oxfordlearnersdictionaries.com/about/wordlists/) | Graded core vocabulary lists for learners. The Oxford 5000 is the Oxford 3000 plus 2,000 words at B2 and C1 level |  | Web, PDF | Proprietary, free to read | Checked |
 | [SCOWL](http://wordlist.aspell.net) | English word lists graded by size and spelling variety. Now published as the English Speller Database, formerly SCOWLv2 |  | SQLite and text downloads, web app, GitHub | Permissive. Free to use, modify and sell with the copyright notice kept | Checked |
 | [English Lexicon Project](https://elexicon.wustl.edu) | Behavioural and descriptive data for English words and nonwords | 40,481 words and 40,481 nonwords | Web query | Non-commercial research only. Not for speech technology | Checked |
-| SUBTLEX-US | Word frequencies from American film and TV subtitles |  | Download | Free for research | Not checked |
+| [SUBTLEX-US](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexus/overview.htm) | Word frequencies from American film and TV subtitles | Based on 51 million words of subtitles | Download | Free for research purposes | Checked |
 | [Google Books Ngram](https://books.google.com/ngrams) | Historical frequencies of word forms, not lemmas |  | Web, raw data download | Not stated on the viewer page | Partly checked |
 | [wordfreq](https://github.com/rspeer/wordfreq) | Word frequency lookup (word forms, not lemmas). Data is a snapshot through about 2021 and the project is no longer updated | Over 40 languages | Python package | Apache 2.0 | Checked |
 | [Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de) | Corpus-based word lists and frequencies | More than 1,000 corpora in over 250 languages, per the site | Download | See the site's terms of use | Partly checked |
@@ -127,7 +127,7 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
 | [Bosworth-Toller Anglo-Saxon Dictionary](https://bosworthtoller.com) | Old English dictionary |  | Web. Database dumps on request | Data free for any purpose. No named license | Checked |
-| [Dictionary of Old English](https://www.doe.utoronto.ca) | Dictionary of English up to 1150, still in progress |  | Subscription | Proprietary | Not checked |
+| [Dictionary of Old English](https://doe.artsci.utoronto.ca) | Dictionary of English from 600 to 1150, still in progress | Published for A to Le | Subscription. Individuals get 20 free logins a year | Proprietary | Checked |
 | [Middle English Dictionary](https://quod.lib.umich.edu/m/middle-english-dictionary) | Dictionary of Middle English, part of the Middle English Compendium |  | Web | Copyright University of Michigan. See the site's copyright statement | Partly checked |
 
 [Back to categories](#categories)

@@ -72,7 +72,7 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [Tricki](https://www.tricki.org) | Wiki of proof techniques. Static snapshot from August 2020, no longer maintained |  | Web | Not stated on the site | Checked |
 | [Erdős Problems](https://www.erdosproblems.com) | Database of problems posed by Paul Erdős with their status | 1,221 problems in the community data repository | Web, GitHub data repository | Apache 2.0 for the community data repository | Checked |
 | [Open Problem Garden](http://www.openproblemgarden.org) | Collection of open problems | Category counts add up to 713, with some problems in more than one category | Web | Check site | Checked |
-| [Complexity Zoo](https://complexityzoo.net) | Complexity classes and the known relations between them |  | Web | Check site | Not checked |
+| [Complexity Zoo](https://complexityzoo.net) | Complexity classes and the known relations between them | 553 classes, per a third-party guide read on 2026-11-15. The site did not load for an automated check | Web | Check site | Partly checked |
 
 [Back to categories](#categories)
 
