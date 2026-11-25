@@ -24,31 +24,31 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | --- | --- | --- | --- | --- | --- |
 | [Mathlib (Lean 4)](https://github.com/leanprover-community/mathlib4) | Unified library of formalised definitions, lemmas and theorems | 220,675 theorems, 107,386 definitions, 588 contributors (Mathlib statistics page) | GitHub, generated docs | Apache 2.0 | Checked |
 | [Lean Reservoir](https://reservoir.lean-lang.org) | Index of Lean packages beyond Mathlib |  | Web | Per package | Checked |
-| CSLib | Theoretical computer science library in Lean |  | GitHub | Check repo | Partly checked |
-| [Equational Theories Project](https://teorth.github.io/equational_theories/) | Lean project settling implications between equational laws of magmas | 1,307 Lean files, many generated (per project chat) | Web, GitHub | Check repo | Partly checked |
+| [CSLib](https://github.com/leanprover/cslib) | The Lean library for computer science |  | GitHub | Apache 2.0 | Checked |
+| [Equational Theories Project](https://teorth.github.io/equational_theories/) | Lean project settling implications between equational laws of magmas | Launched in September 2024. 1,307 Lean files, many generated (per project chat) | Web, GitHub | Apache 2.0 | Checked |
 | [Fermat's Last Theorem project](https://github.com/ImperialCollegeLondon/FLT) | Ongoing Lean formalisation of the proof of Fermat's Last Theorem |  | GitHub | Apache 2.0 | Checked |
 | [Formal Conjectures](https://github.com/google-deepmind/formal-conjectures) | Open conjectures stated formally in Lean |  | GitHub | Apache 2.0 | Checked |
 | [Isabelle Archive of Formal Proofs](https://isa-afp.org) | Journal-style archive of Isabelle proof developments | 1,024 entries, about 325,400 lemmas, about 5.42M lines, 607 authors | Web, download | BSD-style or LGPL | Checked |
 | [Isabelle distribution libraries](https://isabelle.in.tum.de) | HOL base library, HOL-Analysis and others shipped with Isabelle | About 900,000 lines in Isabelle2025 | Download | BSD-style | Checked |
-| [Mathematical Components (Rocq)](https://math-comp.github.io) | Algebra and finite group theory library for Rocq, formerly Coq |  | GitHub, opam | CeCILL-B | Not checked |
-| [Rocq package ecosystem](https://rocq-prover.org) | Standard library and opam packages for the Rocq prover |  | opam | Per package | Not checked |
+| [Mathematical Components (Rocq)](https://math-comp.github.io) | Algebra and finite group theory library for Rocq, formerly Coq |  | GitHub, opam | CeCILL-B | Checked |
+| [Rocq package ecosystem](https://rocq-prover.org) | Standard library and opam packages for the Rocq prover |  | opam | LGPL 2.1 for the prover. Packages vary | Checked |
 | [UniMath](https://github.com/UniMath/UniMath) | Univalent mathematics library in Rocq |  | GitHub | Permissive, MIT-style UniMath license | Checked |
 | [Coq-HoTT](https://github.com/HoTT/Coq-HoTT) | Homotopy type theory library for Rocq |  | GitHub | BSD 2-clause | Checked |
-| [agda-unimath](https://unimath.github.io/agda-unimath/) | Univalent mathematics library in Agda |  | Web, GitHub | MIT | Not checked |
+| [agda-unimath](https://unimath.github.io/agda-unimath/) | Univalent mathematics library in Agda |  | Web, GitHub | MIT | Checked |
 | [Agda standard library](https://github.com/agda/agda-stdlib) | Core library of definitions and lemmas for Agda |  | GitHub | MIT | Checked |
 | [Cubical Agda library](https://github.com/agda/cubical) | Library for cubical type theory in Agda |  | GitHub | MIT, with exceptions for individual files | Checked |
-| [1Lab](https://1lab.dev) | Formalised and explained reference for univalent mathematics in Agda |  | Web, GitHub | Check site | Not checked |
-| [Metamath set.mm](https://us.metamath.org) | Theorems proved from ZFC axioms with every step explicit | Tens of thousands of theorems. Not checked | Web, GitHub | CC0 | Not checked |
+| [1Lab](https://1lab.dev) | Formalised and explained reference for univalent mathematics in Agda |  | Web, GitHub | AGPL 3.0 per the repository license file | Checked |
+| [Metamath set.mm](https://us.metamath.org) | Theorems proved from ZFC axioms with every step explicit | 48,463 proved statements on 2026-11-25 | Web, GitHub | CC0 | Checked |
 | [Metamath other databases](https://us.metamath.org) | Databases beside set.mm: intuitionistic logic, New Foundations, quantum logic | iset.mm 14,462 proofs, nf.mm 5,981, ql.mm 1,178 (mailing-list count) | Web, GitHub | CC0 | Checked |
 | [Mizar Mathematical Library](http://mizar.org) | Articles of formalised mathematics in the Mizar language |  | Download | Check site | Not checked |
 | [HOL Light](https://github.com/jrh13/hol-light) | Prover with a large analysis and geometry library |  | GitHub | BSD-style. Some files under other licenses | Checked |
-| [HOL4](https://hol-theorem-prover.org) | Prover with libraries for mathematics and verification |  | GitHub | BSD-style | Not checked |
+| [HOL4](https://hol-theorem-prover.org) | Prover with libraries for mathematics and verification |  | GitHub | BSD-style | Checked |
 | [Flyspeck](https://github.com/flyspeck/flyspeck) | Formal proof of the Kepler conjecture in HOL Light and Isabelle |  | GitHub | MIT | Checked |
-| [ACL2 community books](https://www.cs.utexas.edu/~moore/acl2/) | Collection of ACL2 lemma libraries |  | GitHub | BSD-style | Not checked |
+| [ACL2 community books](https://www.cs.utexas.edu/~moore/acl2/) | Collection of ACL2 lemma libraries |  | GitHub | BSD 3-clause | Checked |
 | [NASA PVS Library](https://github.com/nasa/pvslib) | Collection of PVS developments in mathematics and engineering |  | GitHub | Varies per library. See top.pvs in each | Checked |
 | [TPTP](https://www.tptp.org) | Problem library for automated theorem provers |  | Download | Check site | Not checked |
-| [Logipedia](http://logipedia.inria.fr) | Proofs translated between provers through Dedukti |  | Web | Check site | Not checked |
-| [OpenTheory](https://www.gilith.com/opentheory/) | Packages of theorems shareable between HOL provers |  | Web | Check site | Not checked |
+| [Logipedia](http://logipedia.inria.fr) | Proofs translated between provers through Dedukti | Code repository last updated in 2024 | Web | No license file in the repository | Partly checked |
+| [OpenTheory](https://www.gilith.com/opentheory/) | Packages of theorems shareable between HOL provers |  | Web | MIT | Checked |
 | [Formalizing 100 Theorems](https://www.cs.ru.nl/~freek/100/) | Tracker of which provers have formalised 100 well-known theorems | Isabelle 92, HOL Light 89, Lean 82, Rocq 79 (per a 2025 talk) | Web |  | Checked |
 
 [Back to categories](#categories)
@@ -58,9 +58,9 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
 | [ProofWiki](https://proofwiki.org) | Wiki of proofs with separate pages for definitions, lemmas and theorems |  | Web, dumps | CC BY-SA | Not checked |
-| [Stacks Project](https://stacks.math.columbia.edu) | Algebraic geometry reference where every lemma has a permanent tag |  | Web, GitHub | GFDL | Not checked |
+| [Stacks Project](https://stacks.math.columbia.edu) | Algebraic geometry reference where every lemma has a permanent tag | 21,446 tags. A tag marks one lemma, definition, section or other labelled item | Web, GitHub | GFDL 1.2 | Checked |
 | [Kerodon](https://kerodon.net) | Higher category theory reference using the Stacks tag system |  | Web | Check site | Not checked |
-| [nLab](https://ncatlab.org) | Wiki for category theory, homotopy theory and related mathematics |  | Web | Check site | Not checked |
+| [nLab](https://ncatlab.org) | Wiki for category theory, homotopy theory and related mathematics |  | Web | No license file in the content repository. Check site | Partly checked |
 | [Wikipedia: List of lemmas](https://en.wikipedia.org/wiki/List_of_lemmas) | Index of named lemmas |  | Web | CC BY-SA | Not checked |
 | [Wikipedia: List of theorems](https://en.wikipedia.org/wiki/List_of_theorems) | Index of named theorems |  | Web | CC BY-SA | Not checked |
 | [Wolfram MathWorld](https://mathworld.wolfram.com) | Encyclopedia with entries for named lemmas and theorems |  | Web | Proprietary, free to read | Not checked |
@@ -70,7 +70,7 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [MathOverflow](https://mathoverflow.net) | Research-level questions and answers, often the only written source of a folklore lemma |  | Web, data dumps | CC BY-SA | Not checked |
 | [Mathematics Stack Exchange](https://math.stackexchange.com) | Questions and answers at all levels |  | Web, data dumps | CC BY-SA | Not checked |
 | [Tricki](https://www.tricki.org) | Wiki of proof techniques. No longer actively developed |  | Web | Check site | Not checked |
-| [Erdős Problems](https://www.erdosproblems.com) | Database of problems posed by Paul Erdős with their status |  | Web | Check site | Not checked |
+| [Erdős Problems](https://www.erdosproblems.com) | Database of problems posed by Paul Erdős with their status | 1,221 problems in the community data repository | Web, GitHub data repository | Apache 2.0 for the community data repository | Checked |
 | [Open Problem Garden](http://www.openproblemgarden.org) | Collection of open problems |  | Web | Check site | Not checked |
 | [Complexity Zoo](https://complexityzoo.net) | Complexity classes and the known relations between them |  | Web | Check site | Not checked |
 
@@ -80,9 +80,9 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
-| [OEIS](https://oeis.org) | Integer sequences. Holds objects, not lemmas |  | Web, download | CC BY-SA | Not checked |
-| [LMFDB](https://www.lmfdb.org) | L-functions, modular forms, elliptic curves. Holds objects, not lemmas |  | Web, API | Check site | Not checked |
-| [pi-Base](https://topology.pi-base.org) | Topological spaces, properties and the theorems connecting them |  | Web, GitHub | Check site | Not checked |
+| [OEIS](https://oeis.org) | Integer sequences. Holds objects, not lemmas |  | Web, download | CC BY-SA 4.0 | Checked |
+| [LMFDB](https://www.lmfdb.org) | L-functions, modular forms, elliptic curves. Holds objects, not lemmas |  | Web, API | GPL 2 or later for the code. Data terms not confirmed | Partly checked |
+| [pi-Base](https://topology.pi-base.org) | Topological spaces, properties and the theorems connecting them | 227 spaces, 251 properties, 948 theorems | Web, GitHub | CC BY 4.0 | Checked |
 | [Database of Ring Theory](https://ringtheory.herokuapp.com) | Rings, properties and the theorems connecting them |  | Web | Check site | Not checked |
 | [House of Graphs](https://houseofgraphs.org) | Searchable database of interesting graphs |  | Web | Check site | Not checked |
 | [ISGCI](https://www.graphclasses.org) | Graph classes and their inclusions |  | Web | Check site | Not checked |
@@ -117,7 +117,7 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [LeanExplore](https://arxiv.org/abs/2506.11085) | Search engine for Lean 4 declarations with MCP integration |  | Web, API | Check paper | Checked |
 | [Mathlib documentation](https://leanprover-community.github.io/mathlib4_docs/) | Generated reference of every Mathlib declaration |  | Web | Apache 2.0 | Not checked |
 | [Isabelle FindFacts](https://search.isabelle.in.tum.de) | Text search over the Isabelle corpus including the AFP |  | Web | Free | Partly checked |
-| [Approach0](https://approach0.xyz) | Formula-aware search over mathematics Q&A |  | Web | Check site | Not checked |
+| [Approach0](https://approach0.xyz) | Formula-aware search over mathematics Q&A | Engine repository last updated in 2020 | Web | MIT for the search engine code | Partly checked |
 
 [Back to categories](#categories)
 
@@ -125,7 +125,7 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
-| [LeanDojo](https://leandojo.org) | Proof states and premises extracted from Mathlib for training provers |  | Download | Check site | Not checked |
+| [LeanDojo](https://leandojo.org) | Proof states and premises extracted from Mathlib for training provers |  | Python package, download | MIT | Checked |
 | [Herald](https://github.com/frenzymath/herald_translator) | Mathlib statements paired with natural-language versions |  | GitHub, Hugging Face | Check repo | Checked |
 | [Lean Workbook](https://huggingface.co/datasets/InternLM/Lean-Workbook) | Competition-style problems formalised in Lean | 57,000 problems, about 5,000 with formal proofs | Hugging Face | Check dataset card | Checked |
 | [TheoremSearch dataset](https://huggingface.co/datasets/uw-math-ai/theorem-search-dataset) | The statements behind TheoremSearch as a downloadable dataset | Over 9 million statements | Hugging Face | Check dataset card | Checked |

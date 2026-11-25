@@ -28,7 +28,7 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
 | [BabelNet](https://babelnet.org) | Synsets merging WordNet, Wikipedia, Wiktionary, Wikidata and other resources | 3,086 languages in v6.0 (Nov 2026). v5.3 had 600 languages and about 23M synsets | Web, API, download on request | CC BY-NC-SA 3.0 (non-commercial) | Checked |
-| [Open Multilingual Wordnet (OMW)](https://github.com/omwn) | Independently built wordnets linked through a shared interlingual index | Dozens of curated wordnets. Exact language count not checked | Python wn library, downloads | Varies per wordnet | Partly checked |
+| [Open Multilingual Wordnet (OMW)](https://github.com/omwn) | Independently built wordnets linked through a shared interlingual index | 33 wordnet projects in the data repository, plus extracted data for over 150 languages | Python wn library, downloads | Varies per wordnet | Checked |
 | [Collaborative Interlingual Index (CILI)](https://github.com/globalwordnet/cili) | Language-neutral concept IDs that wordnets map to |  | GitHub download | CC BY 4.0 | Checked |
 | [Wikidata Lexemes](https://www.wikidata.org/wiki/Wikidata:Lexicographical_data) | Lexemes with lemma, inflected forms, grammatical features and senses | About 1.4M lexemes per a third-party listing dated May 2026. Official count not checked | SPARQL, JSON dumps, API | CC0 | Partly checked |
 | [ConceptNet](https://conceptnet.io) | Common-sense relations between words and phrases | v5.7: about 8M concepts, 21M edges, 83 languages (per a 2025 paper) | API, CSV dumps | CC BY-SA 4.0 | Checked |
@@ -61,7 +61,7 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | [Open English WordNet](https://en-word.net) | Community-maintained successor to Princeton WordNet | 120,068 synsets, 153,261 entries | Python wn library, GitHub | CC BY 4.0 | Checked |
 | [Global WordNet Association](http://globalwordnet.org) | Association behind the Global WordNet Conference and the Global WordNet Grid |  | Web |  | Checked |
 | [FrameNet](https://framenet.icsi.berkeley.edu) | English lexical units grouped by semantic frames | 13,687 entries per a 2023 survey | Download on request, NLTK | Check site | Checked |
-| [VerbNet](https://verbs.colorado.edu/verbnet/) | English verb lemmas grouped into classes with thematic roles | v3.3 is the latest public release | Download | Not stated on the site | Checked |
+| [VerbNet](https://verbs.colorado.edu/verbnet/) | English verb lemmas grouped into classes with thematic roles | v3.4 on GitHub. v3.3 is the latest release on the website | Download | Not stated on the site | Checked |
 | [VerbAtlas](https://verbatlas.org) | Verb synsets from BabelNet grouped into frames |  | Web, download | Check site | Not checked |
 
 [Back to categories](#categories)
@@ -75,8 +75,8 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | [Universal Derivations (UDer)](https://ufal.mff.cuni.cz/universal-derivations) | Harmonised word-formation networks linking lemmas by derivation | v1.1: 31 resources, 21 languages | LINDAT download, DeriSearch | Per resource | Checked |
 | [GLeMM](https://arxiv.org/abs/2604.12442) | Pairs of morphologically related words with derivation patterns, built from Wiktionary-derived sources and MorphyNet | v2.0: 7 languages including English, about 1.16 million pair sets | Git repository named in the paper | CC BY 4.0 | Checked |
 | [MorphyNet](https://github.com/kbatsuren/MorphyNet) | Inflectional and derivational morphology extracted from Wiktionary | 15 languages. Repository last updated in 2023 | GitHub | CC BY-SA 3.0 | Checked |
-| [SIGMORPHON shared task data](https://github.com/sigmorphon) | Lemma to inflection training and test sets |  | GitHub | Varies | Not checked |
-| [Apertium](https://apertium.org) | Morphological dictionaries and analyzers built for rule-based translation |  | GitHub, packages | Open source. License not named on the home page | Partly checked |
+| [SIGMORPHON shared task data](https://github.com/sigmorphon) | Lemma to inflection training and test sets | One repository per shared task year. The 2023 inflection task repository was confirmed | GitHub | No license file in the 2023 repository | Partly checked |
+| [Apertium](https://apertium.org) | Morphological dictionaries and analyzers built for rule-based translation |  | GitHub, packages | GPL 2 for the core engine | Checked |
 | [Hunspell dictionaries](https://github.com/LibreOffice/dictionaries) | Stem and affix files used by spell checkers | 68 dictionary build files in the LibreOffice repository | GitHub (LibreOffice dictionaries) | Varies per language. No single repository license | Checked |
 | [CELEX](https://catalog.ldc.upenn.edu/LDC96L14) | Lemma and word form lexicons for English, Dutch and German | English, German and Dutch. German alone has 51,728 lemmas and 365,530 word forms | LDC purchase | CELEX Agreement. Fee shown after login | Checked |
 | [MorphoLex](https://github.com/hugomailhot/MorphoLex-en) | English lexicon segmented into morphemes with norms |  | GitHub | CC BY-NC-SA 4.0 (non-commercial) | Checked |
@@ -95,7 +95,7 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | [New General Service List](https://www.newgeneralservicelist.com) | Core high-frequency English lemmas for learners | 2,809 words | Download | Creative Commons, commercial use allowed. Variant not named on the home page | Checked |
 | [Academic Word List](https://www.wgtn.ac.nz/lals/resources/academicwordlist) | 570 word families common in academic English |  | Web | Check site | Not checked |
 | [Oxford 3000 and 5000](https://www.oxfordlearnersdictionaries.com/wordlists/) | Graded core vocabulary lists for learners |  | Web, PDF | Proprietary, free to read | Not checked |
-| [SCOWL](http://wordlist.aspell.net) | English word lists graded by size and spelling variety. Now published as the English Speller Database, formerly SCOWLv2 |  | SQLite and text downloads, web app | Not stated on the site. See the en-wl/wordlist repository | Partly checked |
+| [SCOWL](http://wordlist.aspell.net) | English word lists graded by size and spelling variety. Now published as the English Speller Database, formerly SCOWLv2 |  | SQLite and text downloads, web app, GitHub | Permissive. Free to use, modify and sell with the copyright notice kept | Checked |
 | [English Lexicon Project](https://elexicon.wustl.edu) | Behavioural and descriptive data for English words and nonwords | 40,481 words and 40,481 nonwords | Web query | Non-commercial research only. Not for speech technology | Checked |
 | SUBTLEX-US | Word frequencies from American film and TV subtitles |  | Download | Free for research | Not checked |
 | [Google Books Ngram](https://books.google.com/ngrams) | Historical frequencies of word forms, not lemmas |  | Web, download | CC BY | Not checked |
@@ -110,10 +110,10 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
-| [spaCy](https://spacy.io) | Rule and lookup lemmatizers. Tables live in spacy-lookups-data | 75+ languages | Python package | MIT. Not confirmed on the home page | Partly checked |
+| [spaCy](https://spacy.io) | Rule and lookup lemmatizers. Tables live in spacy-lookups-data | 75+ languages | Python package | MIT | Checked |
 | [Stanza](https://stanfordnlp.github.io/stanza/) | Neural lemmatizers trained on Universal Dependencies | 70 languages | Python package | Apache 2.0 | Checked |
 | [UDPipe](https://lindat.mff.cuni.cz/services/udpipe/) | Tokenizer, tagger and lemmatizer trained on Universal Dependencies |  | Web service, CLI | MPL 2.0 code. Models CC BY-NC-SA, non-commercial | Checked |
-| [NLTK](https://www.nltk.org) | WordNet-based English lemmatizer |  | Python package | Apache 2.0. Not confirmed on the home page | Partly checked |
+| [NLTK](https://www.nltk.org) | WordNet-based English lemmatizer |  | Python package | Apache 2.0 | Checked |
 | [Simplemma](https://github.com/adbar/simplemma) | Lightweight dictionary lemmatizer | 55 languages | Python package | MIT code. Data under CC BY, CC BY-SA and ODbL | Checked |
 | [LemmInflect](https://github.com/bjascob/LemmInflect) | English lemmatization and inflection library |  | Python package | MIT | Checked |
 | [TreeTagger](https://www.cis.lmu.de/~schmid/tools/TreeTagger/) | Tagger and lemmatizer with parameter files for many languages | Parameter files for about 35 languages | Download | Free for research, licence needed commercially | Checked |
@@ -168,15 +168,15 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
 | [OntoLex-Lemon](https://www.w3.org/2016/05/ontolex/) | W3C model for publishing lexicons as linked data |  | Specification | W3C | Not checked |
-| TEI Lex-0 | Encoding format for dictionaries, used by ELEXIS |  | Specification | Open | Partly checked |
+| [TEI Lex-0](https://github.com/DARIAH-ERIC/lexicalresources) | Encoding format for dictionaries, used by ELEXIS |  | Specification, GitHub | BSD 2-clause | Checked |
 | [ELEXIS](http://www.elex.is) | European Lexicographic Infrastructure that links dictionaries across languages |  | Web | Per resource | Checked |
 | [ELEXAI](https://www.eurac.edu/en/projects/elexai) | 2026 to 2029 project upgrading ELEXIS for use with language models |  | Not yet released |  | Checked |
-| [Lexonomy](https://www.lexonomy.eu) | Cloud system for writing and publishing dictionaries |  | Web | Open source | Partly checked |
+| [Lexonomy](https://www.lexonomy.eu) | Cloud system for writing and publishing dictionaries | Code repository last updated in 2023 | Web | MIT | Checked |
 | [Linguistic Linked Open Data cloud](https://linguistic-lod.org) | Index of linked-data language resources |  | Web |  | Not checked |
 | [CLARIN Virtual Language Observatory](https://vlo.clarin.eu) | Search across European language resource repositories |  | Web |  | Not checked |
 | [European Language Grid](https://live.european-language-grid.eu) | Catalogue of European language resources and tools |  | Web | Per item | Not checked |
 | [OLAC](http://www.language-archives.org) | Open Language Archives Community search across language archives |  | Web |  | Not checked |
-| [Glottolog](https://glottolog.org) | Catalogue of languages and references. Gives language IDs, not lemmas |  | Web, download | CC BY 4.0 | Not checked |
+| [Glottolog](https://glottolog.org) | Catalogue of languages and references. Gives language IDs, not lemmas | Version 5.4 | Web, download | CC BY 4.0 | Checked |
 | [Linguistic Data Consortium](https://catalog.ldc.upenn.edu) | Catalogue of lexicons and corpora, mostly paid |  | Membership or purchase | Per item | Not checked |
 | [ELRA catalogue](https://catalogue.elra.info) | European catalogue of lexicons and corpora |  | Purchase or free, per item | Per item | Not checked |
 | [Hugging Face datasets](https://huggingface.co/datasets) | Hub hosting copies of many lexicons, word lists and treebanks |  | Web, Python | Per dataset | Not checked |
