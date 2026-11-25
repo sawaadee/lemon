@@ -64,7 +64,8 @@ FIELD_PAGES = {
         "introduction": (
             "In linguistics a lemma is the dictionary form of a word. "
             "These sources list lemmas, map word forms to lemmas, or link "
-            "lemmas across languages."
+            "lemmas across languages. The scope is English: every source "
+            "is either English-only or multilingual with English included."
         ),
         "category_order": [
             "Multilingual lexical network",
@@ -73,7 +74,7 @@ FIELD_PAGES = {
             "Morphology and inflection",
             "Lemma and frequency list",
             "Lemmatizer tool",
-            "Historical and classical",
+            "Historical English",
             "Etymology",
             "Comparative word lists",
             "Terminology",

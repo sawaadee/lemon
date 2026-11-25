@@ -13,6 +13,11 @@ A catalog of databases, lexicons and tools for lemmas.
 
 No complete registry of lemma sources exists for either field. This catalog is broad, not exhaustive.
 
+## Scope
+
+- **Linguistic sources cover English.** A source belongs here if it is English-only or multilingual with English included. Lexicons for a single other language are out of scope.
+- **Mathematical sources have no language limit.**
+
 ## Start here
 
 | I want to | Go to |
@@ -103,6 +108,6 @@ The script needs Python 3.9 or newer and no extra packages.
 
 ## Known gaps
 
-- Coverage of single-language lexicons is uneven. European languages are better covered than African, Southeast Asian and Indigenous American languages.
+- Multilingual sources are listed for their English coverage only. Their quality for other languages was not assessed.
 - One row, the BNC-based English lemma list, has no located source.
 - Scale figures go out of date quickly. Each one names the version or date it applies to where that is known.
