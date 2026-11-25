@@ -175,7 +175,7 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | [Linguistic Linked Open Data cloud](https://linguistic-lod.org) | Status of the linguistic linked data cloud, with publishing principles and guidelines |  | Web |  | Checked |
 | [CLARIN Virtual Language Observatory](https://vlo.clarin.eu) | Search across European language resource repositories | Site answers with a bot check, so contents were not confirmed | Web |  | Partly checked |
 | [European Language Grid](https://live.european-language-grid.eu) | Catalogue of European language technology: tools and services, language resources, organisations and projects |  | Web | Per item | Checked |
-| [OLAC](http://www.language-archives.org) | Open Language Archives Community search across language archives |  | Web |  | Not checked |
+| [OLAC](https://www.language-archives.org) | Open Language Archives Community. A worldwide virtual library that aggregates records of language resources from many archives | Over 300,000 records, covering half of the world's living languages | Web search at search.language-archives.org |  | Checked |
 | [Glottolog](https://glottolog.org) | Catalogue of languages and references. Gives language IDs, not lemmas | Version 5.4 | Web, download | CC BY 4.0 | Checked |
 | [Linguistic Data Consortium](https://catalog.ldc.upenn.edu) | Catalogue of lexicons and corpora, mostly paid | Hundreds of holdings | Membership or purchase | Per item | Checked |
 | [ELRA catalogue](https://catalogue.elra.info) | European catalogue of lexicons and corpora | About 1,600 speech, text, lexicon and evaluation resources | Purchase or free, per item, through ELDA | Per item | Checked |
