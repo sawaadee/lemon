@@ -1,0 +1,30 @@
+# File: .github/workflows/check.yml
+# Purpose: On every push and pull request, validate data/sources.csv and
+#          confirm that the generated pages in docs/ match it.
+# Created: 2026-11-25
+
+name: Check catalog
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Fails when a row is invalid or when docs/ was not rebuilt after the
+      # CSV changed. The fix is to run scripts/build_catalog.py and commit.
+      - name: Validate the CSV and the generated pages
+        run: python scripts/build_catalog.py --check

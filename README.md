@@ -15,7 +15,7 @@ No complete registry of lemma sources exists for either field. This catalog is b
 
 ## Scope
 
-- **Linguistic sources cover English.** A source belongs here if it is English-only or multilingual with English included. Lexicons for a single other language are out of scope.
+- **Linguistic sources cover English.** A source belongs here if it is English-only or multilingual with English included. Old and Middle English count as English. Lexicons for a single other language are out of scope.
 - **Mathematical sources have no language limit.**
 
 ## Start here
@@ -38,7 +38,15 @@ Every source has a status.
 | Partly checked | The source was confirmed to exist, but at least one detail was not confirmed. |
 | Not checked | Recorded from prior knowledge. The link, license and scale may be out of date. |
 
-Most rows are checked, but a check covers the facts in the row, not every term of a license. Confirm the license on the source's own site before you depend on it. The current counts per status are in [docs/README.md](docs/README.md).
+Every row has been checked at least in part. A check covers the facts in the row, not every term of a license, so confirm the license on the source's own site before you depend on it. The current counts per status are in [docs/README.md](docs/README.md).
+
+### How a row gets checked
+
+- **Sources with a public repository:** the license file, the last commit date and any countable data were read from the repository itself.
+- **Sources with a website:** the page at the row's address was read and compared with the row.
+- **Sources whose site blocks automated readers:** the facts were taken from a search result or from the page as opened in a browser.
+
+A row is `partly-checked` when the source exists but one detail, usually the license or the size, could not be confirmed this way.
 
 ## Layout
 
@@ -48,6 +56,7 @@ docs/README.md             Counts and status key. Generated.
 docs/linguistics.md        Linguistic sources by category. Generated.
 docs/mathematics.md        Mathematical sources by category. Generated.
 scripts/build_catalog.py   Validates the CSV and generates docs/.
+.github/workflows/check.yml  Runs the validation on every push.
 ```
 
 `data/sources.csv` is the single source of truth. Everything in `docs/` is generated from it, so do not edit those pages by hand.
@@ -64,7 +73,7 @@ scripts/build_catalog.py   Validates the CSV and generates docs/.
 | `description` | Yes | What the source holds, in one or two plain sentences. |
 | `scale` | No | Size or coverage, with the version or date it applies to. |
 | `access` | No | How to get the data: web, API, download, subscription. |
-| `license` | No | License or terms. `Check site` means it was not confirmed. |
+| `license` | No | License or terms. `Check site` or `Not stated` means it was not confirmed. |
 | `url` | No | Full `http` or `https` address. Empty when no address was confirmed. |
 | `status` | Yes | `checked`, `partly-checked` or `not-checked`. |
 | `last_checked` | With a check | Date of the check as `YYYY-MM-DD`. Empty for `not-checked`. |
@@ -94,7 +103,7 @@ checked_formal_libraries = [
    python scripts/build_catalog.py
    ```
 
-4. Commit the CSV and the regenerated `docs/` pages together.
+4. Commit the CSV and the regenerated `docs/` pages together. The check that runs on every push fails if the pages were not rebuilt.
 
 The script stops and lists every problem if a row is invalid: a missing required value, an unknown field or status, a malformed address, a missing check date or a duplicate name.
 
