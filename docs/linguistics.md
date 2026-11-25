@@ -44,9 +44,9 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | [Wiktionary](https://www.wiktionary.org) | Dictionary entries with lemma categories per language |  | Web, XML dumps | CC BY-SA | Not checked |
 | [Kaikki.org (Wiktextract)](https://kaikki.org) | Wiktionary converted to structured JSONL with forms, senses and etymology | Rebuilt every few days from Wiktionary dumps | JSONL download | Same as Wiktionary (CC BY-SA) | Checked |
 | [DBnary](http://kaiko.getalp.org/about-dbnary/) | Wiktionary editions published as OntoLex-Lemon linked data | 28 Wiktionary language editions | SPARQL, Turtle dumps, linked data | CC BY-SA 4.0 data. MIT extractor code | Checked |
-| [Oxford English Dictionary](https://www.oed.com) | Historical dictionary. Its headword list is the reference inventory of English lemmas |  | Subscription | Proprietary | Not checked |
+| [Oxford English Dictionary](https://www.oed.com) | Historical dictionary. Its headword list is the reference inventory of English lemmas |  | Subscription | Proprietary. Subscription terms not confirmed on the home page | Partly checked |
 | [Merriam-Webster Dictionary API](https://dictionaryapi.com) | Headwords, inflections and definitions for English |  | API key | Free for non-commercial use, 1,000 queries per day. Commercial use needs approval | Checked |
-| [Wordnik](https://www.wordnik.com) | English words aggregated from several dictionaries and corpora |  | Web, API | Mixed | Not checked |
+| [Wordnik](https://www.wordnik.com) | Non-profit online English dictionary that aggregates several sources |  | Web, API at developer.wordnik.com | Mixed | Checked |
 | [Free Dictionary API](https://dictionaryapi.dev) | Free JSON API for English definitions, pronunciations and synonyms. The site does not state where the data comes from |  | API | No formal license stated | Checked |
 | [GCIDE](https://gcide.gnu.org.ua) | GNU Collaborative International Dictionary of English |  | Download | GPL. Not confirmed on the home page | Partly checked |
 | [CMUdict](https://github.com/cmusphinx/cmudict) | Pronunciations for English words |  | GitHub | BSD-style | Checked |
@@ -98,7 +98,7 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 | [SCOWL](http://wordlist.aspell.net) | English word lists graded by size and spelling variety. Now published as the English Speller Database, formerly SCOWLv2 |  | SQLite and text downloads, web app, GitHub | Permissive. Free to use, modify and sell with the copyright notice kept | Checked |
 | [English Lexicon Project](https://elexicon.wustl.edu) | Behavioural and descriptive data for English words and nonwords | 40,481 words and 40,481 nonwords | Web query | Non-commercial research only. Not for speech technology | Checked |
 | SUBTLEX-US | Word frequencies from American film and TV subtitles |  | Download | Free for research | Not checked |
-| [Google Books Ngram](https://books.google.com/ngrams) | Historical frequencies of word forms, not lemmas |  | Web, download | CC BY | Not checked |
+| [Google Books Ngram](https://books.google.com/ngrams) | Historical frequencies of word forms, not lemmas |  | Web, raw data download | Not stated on the viewer page | Partly checked |
 | [wordfreq](https://github.com/rspeer/wordfreq) | Word frequency lookup (word forms, not lemmas). Data is a snapshot through about 2021 and the project is no longer updated | Over 40 languages | Python package | Apache 2.0 | Checked |
 | [Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de) | Corpus-based word lists and frequencies | More than 1,000 corpora in over 250 languages, per the site | Download | See the site's terms of use | Partly checked |
 | [Lemmatization lists (Měchura)](https://github.com/michmech/lemmatization-lists) | Plain form-to-lemma pair files | 24 languages, one file each | GitHub | ODbL | Checked |
@@ -158,8 +158,8 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
-| [SPECIALIST Lexicon (UMLS)](https://www.nlm.nih.gov/research/umls/) | Biomedical and general English lexicon with inflections |  | Download with UMLS account | Free with licence agreement | Not checked |
-| [IATE](https://iate.europa.eu) | Terminology database of the European Union |  | Web, download | Check site | Not checked |
+| [SPECIALIST Lexicon (UMLS)](https://www.nlm.nih.gov/research/umls/) | Large syntactic lexicon of biomedical and general English, one of the three UMLS knowledge sources |  | Download with UMLS account | Free licence, issued to individuals. Account required | Checked |
+| [IATE](https://iate.europa.eu) | Multilingual terminology database of the EU institutions and bodies |  | Web, download | Check site | Partly checked |
 
 [Back to categories](#categories)
 
@@ -167,18 +167,18 @@ In linguistics a lemma is the dictionary form of a word. These sources list lemm
 
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
-| [OntoLex-Lemon](https://www.w3.org/2016/05/ontolex/) | W3C model for publishing lexicons as linked data |  | Specification | W3C | Not checked |
+| [OntoLex-Lemon](https://www.w3.org/2016/05/ontolex/) | W3C model for publishing lexicons as linked data | Final Community Group Report dated 10 May 2016 | Specification | W3C community report, not a W3C Standard | Checked |
 | [TEI Lex-0](https://github.com/DARIAH-ERIC/lexicalresources) | Encoding format for dictionaries, used by ELEXIS |  | Specification, GitHub | BSD 2-clause | Checked |
 | [ELEXIS](http://www.elex.is) | European Lexicographic Infrastructure that links dictionaries across languages |  | Web | Per resource | Checked |
 | [ELEXAI](https://www.eurac.edu/en/projects/elexai) | 2026 to 2029 project upgrading ELEXIS for use with language models |  | Not yet released |  | Checked |
 | [Lexonomy](https://www.lexonomy.eu) | Cloud system for writing and publishing dictionaries | Code repository last updated in 2023 | Web | MIT | Checked |
-| [Linguistic Linked Open Data cloud](https://linguistic-lod.org) | Index of linked-data language resources |  | Web |  | Not checked |
-| [CLARIN Virtual Language Observatory](https://vlo.clarin.eu) | Search across European language resource repositories |  | Web |  | Not checked |
-| [European Language Grid](https://live.european-language-grid.eu) | Catalogue of European language resources and tools |  | Web | Per item | Not checked |
+| [Linguistic Linked Open Data cloud](https://linguistic-lod.org) | Status of the linguistic linked data cloud, with publishing principles and guidelines |  | Web |  | Checked |
+| [CLARIN Virtual Language Observatory](https://vlo.clarin.eu) | Search across European language resource repositories | Site answers with a bot check, so contents were not confirmed | Web |  | Partly checked |
+| [European Language Grid](https://live.european-language-grid.eu) | Catalogue of European language technology: tools and services, language resources, organisations and projects |  | Web | Per item | Checked |
 | [OLAC](http://www.language-archives.org) | Open Language Archives Community search across language archives |  | Web |  | Not checked |
 | [Glottolog](https://glottolog.org) | Catalogue of languages and references. Gives language IDs, not lemmas | Version 5.4 | Web, download | CC BY 4.0 | Checked |
-| [Linguistic Data Consortium](https://catalog.ldc.upenn.edu) | Catalogue of lexicons and corpora, mostly paid |  | Membership or purchase | Per item | Not checked |
-| [ELRA catalogue](https://catalogue.elra.info) | European catalogue of lexicons and corpora |  | Purchase or free, per item | Per item | Not checked |
-| [Hugging Face datasets](https://huggingface.co/datasets) | Hub hosting copies of many lexicons, word lists and treebanks |  | Web, Python | Per dataset | Not checked |
+| [Linguistic Data Consortium](https://catalog.ldc.upenn.edu) | Catalogue of lexicons and corpora, mostly paid | Hundreds of holdings | Membership or purchase | Per item | Checked |
+| [ELRA catalogue](https://catalogue.elra.info) | European catalogue of lexicons and corpora | About 1,600 speech, text, lexicon and evaluation resources | Purchase or free, per item, through ELDA | Per item | Checked |
+| [Hugging Face datasets](https://huggingface.co/datasets) | Hub hosting copies of many lexicons, word lists and treebanks | 1,147,363 datasets on 2026-11-25 | Web, Python | Per dataset | Checked |
 
 [Back to categories](#categories)

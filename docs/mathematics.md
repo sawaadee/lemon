@@ -40,13 +40,13 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [1Lab](https://1lab.dev) | Formalised and explained reference for univalent mathematics in Agda |  | Web, GitHub | AGPL 3.0 per the repository license file | Checked |
 | [Metamath set.mm](https://us.metamath.org) | Theorems proved from ZFC axioms with every step explicit | 48,463 proved statements on 2026-11-25 | Web, GitHub | CC0 | Checked |
 | [Metamath other databases](https://us.metamath.org) | Databases beside set.mm: intuitionistic logic, New Foundations, quantum logic | iset.mm 14,462 proofs, nf.mm 5,981, ql.mm 1,178 (mailing-list count) | Web, GitHub | CC0 | Checked |
-| [Mizar Mathematical Library](http://mizar.org) | Articles of formalised mathematics in the Mizar language |  | Download | Check site | Not checked |
+| [Mizar Mathematical Library](http://mizar.org) | Articles of formalised mathematics in the Mizar language | mizar.org redirects to mizar.uwb.edu.pl. Contents not confirmed | Download | Check site | Partly checked |
 | [HOL Light](https://github.com/jrh13/hol-light) | Prover with a large analysis and geometry library |  | GitHub | BSD-style. Some files under other licenses | Checked |
 | [HOL4](https://hol-theorem-prover.org) | Prover with libraries for mathematics and verification |  | GitHub | BSD-style | Checked |
 | [Flyspeck](https://github.com/flyspeck/flyspeck) | Formal proof of the Kepler conjecture in HOL Light and Isabelle |  | GitHub | MIT | Checked |
 | [ACL2 community books](https://www.cs.utexas.edu/~moore/acl2/) | Collection of ACL2 lemma libraries |  | GitHub | BSD 3-clause | Checked |
 | [NASA PVS Library](https://github.com/nasa/pvslib) | Collection of PVS developments in mathematics and engineering |  | GitHub | Varies per library. See top.pvs in each | Checked |
-| [TPTP](https://www.tptp.org) | Problem library for automated theorem provers |  | Download | Check site | Not checked |
+| [TPTP](https://www.tptp.org) | Problem library for automated theorem provers. The library itself is hosted at tptp.tptp.org |  | Download | Not stated. Citation requested | Checked |
 | [Logipedia](http://logipedia.inria.fr) | Proofs translated between provers through Dedukti | Code repository last updated in 2024 | Web | No license file in the repository | Partly checked |
 | [OpenTheory](https://www.gilith.com/opentheory/) | Packages of theorems shareable between HOL provers |  | Web | MIT | Checked |
 | [Formalizing 100 Theorems](https://www.cs.ru.nl/~freek/100/) | Tracker of which provers have formalised 100 well-known theorems | Isabelle 92, HOL Light 89, Lean 82, Rocq 79 (per a 2025 talk) | Web |  | Checked |
@@ -57,21 +57,21 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
-| [ProofWiki](https://proofwiki.org) | Wiki of proofs with separate pages for definitions, lemmas and theorems |  | Web, dumps | CC BY-SA | Not checked |
+| [ProofWiki](https://proofwiki.org) | Wiki of proofs with separate pages for definitions, lemmas and theorems | 30,524 proofs and 36,260 definitions | Web, dumps | CC BY-SA 3.0 | Checked |
 | [Stacks Project](https://stacks.math.columbia.edu) | Algebraic geometry reference where every lemma has a permanent tag | 21,446 tags. A tag marks one lemma, definition, section or other labelled item | Web, GitHub | GFDL 1.2 | Checked |
-| [Kerodon](https://kerodon.net) | Higher category theory reference using the Stacks tag system |  | Web | Check site | Not checked |
+| [Kerodon](https://kerodon.net) | Online resource for homotopy-coherent mathematics by Jacob Lurie. Every item has a permanent tag |  | Web | Not stated on the site | Checked |
 | [nLab](https://ncatlab.org) | Wiki for category theory, homotopy theory and related mathematics |  | Web | No license file in the content repository. Check site | Partly checked |
-| [Wikipedia: List of lemmas](https://en.wikipedia.org/wiki/List_of_lemmas) | Index of named lemmas |  | Web | CC BY-SA | Not checked |
-| [Wikipedia: List of theorems](https://en.wikipedia.org/wiki/List_of_theorems) | Index of named theorems |  | Web | CC BY-SA | Not checked |
-| [Wolfram MathWorld](https://mathworld.wolfram.com) | Encyclopedia with entries for named lemmas and theorems |  | Web | Proprietary, free to read | Not checked |
-| [Encyclopedia of Mathematics](https://encyclopediaofmath.org) | Reference wiki based on the Springer encyclopedia |  | Web | Check site | Not checked |
-| [PlanetMath](https://planetmath.org) | Community mathematics encyclopedia |  | Web, GitHub | CC BY-SA | Not checked |
-| [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov) | Identities and properties of special functions |  | Web | Free to read | Not checked |
+| [Wikipedia: List of lemmas](https://en.wikipedia.org/wiki/List_of_lemmas) | Index of named lemmas | About 60 named lemmas | Web | CC BY-SA | Checked |
+| [Wikipedia: List of theorems](https://en.wikipedia.org/wiki/List_of_theorems) | Index of named theorems | More than 800 theorems, grouped by subject | Web | CC BY-SA | Checked |
+| [Wolfram MathWorld](https://mathworld.wolfram.com) | Encyclopedia with entries for named lemmas and theorems | 17,799 entries | Web | Proprietary. See the site's terms of use | Checked |
+| [Encyclopedia of Mathematics](https://encyclopediaofmath.org) | Reference wiki based on the Springer encyclopedia | More than 8,000 entries covering nearly 50,000 notions | Web | Original articles copyright Springer. New wiki content CC BY-SA | Checked |
+| [PlanetMath](https://planetmath.org) | Community mathematics encyclopedia |  | Web, GitHub | CC BY-SA 2.5 | Checked |
+| [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov) | Identities and properties of special functions | Version 1.2.8, released 2026-09-15 | Web | See the NIST copyright notice | Checked |
 | [MathOverflow](https://mathoverflow.net) | Research-level questions and answers, often the only written source of a folklore lemma |  | Web, data dumps | CC BY-SA | Not checked |
 | [Mathematics Stack Exchange](https://math.stackexchange.com) | Questions and answers at all levels |  | Web, data dumps | CC BY-SA | Not checked |
-| [Tricki](https://www.tricki.org) | Wiki of proof techniques. No longer actively developed |  | Web | Check site | Not checked |
+| [Tricki](https://www.tricki.org) | Wiki of proof techniques. Static snapshot from August 2020, no longer maintained |  | Web | Not stated on the site | Checked |
 | [Erdős Problems](https://www.erdosproblems.com) | Database of problems posed by Paul Erdős with their status | 1,221 problems in the community data repository | Web, GitHub data repository | Apache 2.0 for the community data repository | Checked |
-| [Open Problem Garden](http://www.openproblemgarden.org) | Collection of open problems |  | Web | Check site | Not checked |
+| [Open Problem Garden](http://www.openproblemgarden.org) | Collection of open problems | Category counts add up to 713, with some problems in more than one category | Web | Check site | Checked |
 | [Complexity Zoo](https://complexityzoo.net) | Complexity classes and the known relations between them |  | Web | Check site | Not checked |
 
 [Back to categories](#categories)
@@ -83,13 +83,13 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [OEIS](https://oeis.org) | Integer sequences. Holds objects, not lemmas |  | Web, download | CC BY-SA 4.0 | Checked |
 | [LMFDB](https://www.lmfdb.org) | L-functions, modular forms, elliptic curves. Holds objects, not lemmas |  | Web, API | GPL 2 or later for the code. Data terms not confirmed | Partly checked |
 | [pi-Base](https://topology.pi-base.org) | Topological spaces, properties and the theorems connecting them | 227 spaces, 251 properties, 948 theorems | Web, GitHub | CC BY 4.0 | Checked |
-| [Database of Ring Theory](https://ringtheory.herokuapp.com) | Rings, properties and the theorems connecting them |  | Web | Check site | Not checked |
-| [House of Graphs](https://houseofgraphs.org) | Searchable database of interesting graphs |  | Web | Check site | Not checked |
-| [ISGCI](https://www.graphclasses.org) | Graph classes and their inclusions |  | Web | Check site | Not checked |
-| [FindStat](https://www.findstat.org) | Combinatorial statistics and maps |  | Web | Check site | Not checked |
-| [KnotInfo](https://knotinfo.math.indiana.edu) | Table of knots and their invariants |  | Web | Check site | Not checked |
-| [ATLAS of Finite Group Representations](https://brauer.maths.qmul.ac.uk/Atlas/v3/) | Representations and data for finite simple groups |  | Web | Check site | Not checked |
-| [Encyclopedia of Triangle Centers](https://faculty.evansville.edu/ck6/encyclopedia/ETC.html) | Catalogue of triangle centers and their properties |  | Web | Check site | Not checked |
+| [Database of Ring Theory](https://ringtheory.herokuapp.com) | Rings, properties and the theorems connecting them |  | Web | Not stated on the home page | Checked |
+| [House of Graphs](https://houseofgraphs.org) | Online database of interesting graphs |  | Web | Not stated on the home page | Checked |
+| [ISGCI](https://www.graphclasses.org) | Graph classes and their inclusions | 1,695 classes and 242,975 inclusions | Web | Not stated on the home page | Checked |
+| [FindStat](https://www.findstat.org) | Combinatorial statistics and maps | 1,997 statistics and 336 maps | Web | Not stated on the home page | Checked |
+| [KnotInfo](https://knotinfo.math.indiana.edu) | Table of knots and their invariants, queried by crossing number |  | Web | Check site | Partly checked |
+| [ATLAS of Finite Group Representations](https://brauer.maths.qmul.ac.uk/Atlas/v3/) | Representations and data for finite simple groups | Version 3.004: about 716 groups and 5,215 representations | Web | Not stated on the home page | Checked |
+| [Encyclopedia of Triangle Centers](https://faculty.evansville.edu/ck6/encyclopedia/ETC.html) | Catalogue of triangle centers and their properties | Centers up to X(84000) | Web | Not stated on the site | Checked |
 
 [Back to categories](#categories)
 
@@ -97,12 +97,12 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 
 | Source | What it holds | Scale | Access | License | Status |
 | --- | --- | --- | --- | --- | --- |
-| [zbMATH Open](https://zbmath.org) | Reviews and abstracts of the mathematical literature |  | Web, API | Free to read | Not checked |
-| [MathSciNet](https://mathscinet.ams.org) | Reviews and index of the mathematical literature |  | Subscription | Proprietary | Not checked |
-| [arXiv](https://arxiv.org) | Preprints. Most research lemmas exist only here as LaTeX inside papers |  | Web, bulk access | Per paper | Not checked |
-| [MaRDI Portal](https://portal.mardi4nfdi.de) | German research data portal for mathematics, built on a knowledge graph |  | Web, SPARQL | Check site | Not checked |
-| [EuDML](https://eudml.org) | European Digital Mathematics Library of open-access papers |  | Web | Per item | Not checked |
-| [Numdam](http://www.numdam.org) | French digital mathematics library |  | Web | Per item | Not checked |
+| [zbMATH Open](https://zbmath.org) | Reviews and abstracts of the mathematical literature |  | Web, API | Free to read | Partly checked |
+| [MathSciNet](https://mathscinet.ams.org) | Reviews and index of the mathematical literature |  | Subscription | Proprietary | Partly checked |
+| [arXiv](https://arxiv.org) | Preprints. Most research lemmas exist only here as LaTeX inside papers | More than 3.2 million articles across all fields | Web, bulk access | Per paper | Checked |
+| [MaRDI Portal](https://portal.mardi4nfdi.de) | German research data portal for mathematics, built on a knowledge graph | More than 7 million items | Web, SPARQL | CC BY-SA 4.0 for structured data | Checked |
+| [EuDML](https://eudml.org) | European Digital Mathematics Library of open-access papers | 271,792 items in 14 collections | Web | Per item | Checked |
+| [Numdam](http://www.numdam.org) | French digital mathematics library | 75,599 articles in 120 periodicals, 706 books, 416 theses | Web | Per item | Checked |
 
 [Back to categories](#categories)
 
@@ -115,7 +115,7 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [LeanSearch](https://leansearch.net) | Natural-language search over Mathlib |  | Web | Free | Checked |
 | [Moogle](https://www.moogle.ai) | Semantic search over Mathlib. The Lean community blog calls it somewhat outdated |  | Web, editor | Free | Checked |
 | [LeanExplore](https://arxiv.org/abs/2506.11085) | Search engine for Lean 4 declarations with MCP integration |  | Web, API | Check paper | Checked |
-| [Mathlib documentation](https://leanprover-community.github.io/mathlib4_docs/) | Generated reference of every Mathlib declaration |  | Web | Apache 2.0 | Not checked |
+| [Mathlib documentation](https://leanprover-community.github.io/mathlib4_docs/) | Generated reference of every Mathlib declaration |  | Web | Apache 2.0 | Partly checked |
 | [Isabelle FindFacts](https://search.isabelle.in.tum.de) | Text search over the Isabelle corpus including the AFP |  | Web | Free | Partly checked |
 | [Approach0](https://approach0.xyz) | Formula-aware search over mathematics Q&A | Engine repository last updated in 2020 | Web | MIT for the search engine code | Partly checked |
 
@@ -133,7 +133,7 @@ In mathematics a lemma is a proven statement used as a step toward a larger resu
 | [ProofNet](https://github.com/zhangir-azerbayev/ProofNet) | Undergraduate statements paired in natural language and Lean |  | GitHub | MIT | Checked |
 | [PutnamBench](https://github.com/trishullab/PutnamBench) | Putnam competition problems formalised in several provers |  | GitHub | Apache 2.0 (Lean 4, Isabelle), MIT (Coq) | Checked |
 | [NaturalProofs](https://github.com/wellecks/naturalproofs) | Theorems, proofs and references from ProofWiki, Stacks and textbooks |  | GitHub | MIT | Checked |
-| [Proof-Pile](https://huggingface.co/datasets/hoskinson-center/proof-pile) | Mixed corpus of informal and formal mathematics |  | Hugging Face | Per source | Not checked |
+| [Proof-Pile](https://huggingface.co/datasets/hoskinson-center/proof-pile) | Corpus of informal and formal mathematics for training language models, drawn from arXiv, Q&A sites, proof libraries, textbooks and wikis | About 13 GB, 8.3 billion tokens | Hugging Face | Apache 2.0 | Checked |
 | [CoqGym](https://github.com/princeton-vl/CoqGym) | Proofs extracted from Rocq projects for training provers |  | GitHub | LGPL 2.1 | Checked |
 
 [Back to categories](#categories)

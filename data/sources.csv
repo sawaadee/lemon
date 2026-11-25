@@ -9,9 +9,9 @@ MUSE bilingual dictionaries,Linguistics,Multilingual lexical network,Word transl
 Wiktionary,Linguistics,Dictionary,Dictionary entries with lemma categories per language,,"Web, XML dumps",CC BY-SA,https://www.wiktionary.org,not-checked,
 Kaikki.org (Wiktextract),Linguistics,Dictionary,"Wiktionary converted to structured JSONL with forms, senses and etymology",Rebuilt every few days from Wiktionary dumps,JSONL download,Same as Wiktionary (CC BY-SA),https://kaikki.org,checked,2026-11-25
 DBnary,Linguistics,Dictionary,Wiktionary editions published as OntoLex-Lemon linked data,28 Wiktionary language editions,"SPARQL, Turtle dumps, linked data",CC BY-SA 4.0 data. MIT extractor code,http://kaiko.getalp.org/about-dbnary/,checked,2026-11-25
-Oxford English Dictionary,Linguistics,Dictionary,Historical dictionary. Its headword list is the reference inventory of English lemmas,,Subscription,Proprietary,https://www.oed.com,not-checked,
+Oxford English Dictionary,Linguistics,Dictionary,Historical dictionary. Its headword list is the reference inventory of English lemmas,,Subscription,Proprietary. Subscription terms not confirmed on the home page,https://www.oed.com,partly-checked,2026-11-25
 Merriam-Webster Dictionary API,Linguistics,Dictionary,"Headwords, inflections and definitions for English",,API key,"Free for non-commercial use, 1,000 queries per day. Commercial use needs approval",https://dictionaryapi.com,checked,2026-11-25
-Wordnik,Linguistics,Dictionary,English words aggregated from several dictionaries and corpora,,"Web, API",Mixed,https://www.wordnik.com,not-checked,
+Wordnik,Linguistics,Dictionary,Non-profit online English dictionary that aggregates several sources,,"Web, API at developer.wordnik.com",Mixed,https://www.wordnik.com,checked,2026-11-25
 Free Dictionary API,Linguistics,Dictionary,"Free JSON API for English definitions, pronunciations and synonyms. The site does not state where the data comes from",,API,No formal license stated,https://dictionaryapi.dev,checked,2026-11-25
 GCIDE,Linguistics,Dictionary,GNU Collaborative International Dictionary of English,,Download,GPL. Not confirmed on the home page,https://gcide.gnu.org.ua,partly-checked,2026-11-25
 CMUdict,Linguistics,Dictionary,Pronunciations for English words,,GitHub,BSD-style,https://github.com/cmusphinx/cmudict,checked,2026-11-25
@@ -42,7 +42,7 @@ Oxford 3000 and 5000,Linguistics,Lemma and frequency list,Graded core vocabulary
 SCOWL,Linguistics,Lemma and frequency list,"English word lists graded by size and spelling variety. Now published as the English Speller Database, formerly SCOWLv2",,"SQLite and text downloads, web app, GitHub","Permissive. Free to use, modify and sell with the copyright notice kept",http://wordlist.aspell.net,checked,2026-11-25
 English Lexicon Project,Linguistics,Lemma and frequency list,Behavioural and descriptive data for English words and nonwords,"40,481 words and 40,481 nonwords",Web query,Non-commercial research only. Not for speech technology,https://elexicon.wustl.edu,checked,2026-11-25
 SUBTLEX-US,Linguistics,Lemma and frequency list,Word frequencies from American film and TV subtitles,,Download,Free for research,,not-checked,
-Google Books Ngram,Linguistics,Lemma and frequency list,"Historical frequencies of word forms, not lemmas",,"Web, download",CC BY,https://books.google.com/ngrams,not-checked,
+Google Books Ngram,Linguistics,Lemma and frequency list,"Historical frequencies of word forms, not lemmas",,"Web, raw data download",Not stated on the viewer page,https://books.google.com/ngrams,partly-checked,2026-11-25
 wordfreq,Linguistics,Lemma and frequency list,"Word frequency lookup (word forms, not lemmas). Data is a snapshot through about 2021 and the project is no longer updated",Over 40 languages,Python package,Apache 2.0,https://github.com/rspeer/wordfreq,checked,2026-11-25
 Leipzig Corpora Collection,Linguistics,Lemma and frequency list,Corpus-based word lists and frequencies,"More than 1,000 corpora in over 250 languages, per the site",Download,See the site's terms of use,https://wortschatz.uni-leipzig.de,partly-checked,2026-11-25
 Lemmatization lists (Měchura),Linguistics,Lemma and frequency list,Plain form-to-lemma pair files,"24 languages, one file each",GitHub,ODbL,https://github.com/michmech/lemmatization-lists,checked,2026-11-25
@@ -67,21 +67,21 @@ Lexibank,Linguistics,Comparative word lists,Standardised word lists in CLDF form
 Intercontinental Dictionary Series,Linguistics,Comparative word lists,Comparable word lists organised by meaning,"1,310 meanings per language",Web,CC BY 4.0,https://ids.clld.org,checked,2026-11-25
 ASJP,Linguistics,Comparative word lists,Short basic-vocabulary lists for most of the world's languages,"Version 21: 11,540 word lists of 40 items, 6,135 languages","Web, download",CC BY 4.0,https://asjp.clld.org,checked,2026-11-25
 CLICS,Linguistics,Comparative word lists,Database of cross-linguistic colexifications,"CLICS 4: 3,447 language varieties",Web,CC BY 4.0,https://clics.clld.org,checked,2026-11-25
-SPECIALIST Lexicon (UMLS),Linguistics,Terminology,Biomedical and general English lexicon with inflections,,Download with UMLS account,Free with licence agreement,https://www.nlm.nih.gov/research/umls/,not-checked,
-IATE,Linguistics,Terminology,Terminology database of the European Union,,"Web, download",Check site,https://iate.europa.eu,not-checked,
-OntoLex-Lemon,Linguistics,Standard and catalogue,W3C model for publishing lexicons as linked data,,Specification,W3C,https://www.w3.org/2016/05/ontolex/,not-checked,
+SPECIALIST Lexicon (UMLS),Linguistics,Terminology,"Large syntactic lexicon of biomedical and general English, one of the three UMLS knowledge sources",,Download with UMLS account,"Free licence, issued to individuals. Account required",https://www.nlm.nih.gov/research/umls/,checked,2026-11-25
+IATE,Linguistics,Terminology,Multilingual terminology database of the EU institutions and bodies,,"Web, download",Check site,https://iate.europa.eu,partly-checked,2026-11-25
+OntoLex-Lemon,Linguistics,Standard and catalogue,W3C model for publishing lexicons as linked data,Final Community Group Report dated 10 May 2016,Specification,"W3C community report, not a W3C Standard",https://www.w3.org/2016/05/ontolex/,checked,2026-11-25
 TEI Lex-0,Linguistics,Standard and catalogue,"Encoding format for dictionaries, used by ELEXIS",,"Specification, GitHub",BSD 2-clause,https://github.com/DARIAH-ERIC/lexicalresources,checked,2026-11-25
 ELEXIS,Linguistics,Standard and catalogue,European Lexicographic Infrastructure that links dictionaries across languages,,Web,Per resource,http://www.elex.is,checked,2026-11-25
 ELEXAI,Linguistics,Standard and catalogue,2026 to 2029 project upgrading ELEXIS for use with language models,,Not yet released,,https://www.eurac.edu/en/projects/elexai,checked,2026-11-25
 Lexonomy,Linguistics,Standard and catalogue,Cloud system for writing and publishing dictionaries,Code repository last updated in 2023,Web,MIT,https://www.lexonomy.eu,checked,2026-11-25
-Linguistic Linked Open Data cloud,Linguistics,Standard and catalogue,Index of linked-data language resources,,Web,,https://linguistic-lod.org,not-checked,
-CLARIN Virtual Language Observatory,Linguistics,Standard and catalogue,Search across European language resource repositories,,Web,,https://vlo.clarin.eu,not-checked,
-European Language Grid,Linguistics,Standard and catalogue,Catalogue of European language resources and tools,,Web,Per item,https://live.european-language-grid.eu,not-checked,
+Linguistic Linked Open Data cloud,Linguistics,Standard and catalogue,"Status of the linguistic linked data cloud, with publishing principles and guidelines",,Web,,https://linguistic-lod.org,checked,2026-11-25
+CLARIN Virtual Language Observatory,Linguistics,Standard and catalogue,Search across European language resource repositories,"Site answers with a bot check, so contents were not confirmed",Web,,https://vlo.clarin.eu,partly-checked,2026-11-25
+European Language Grid,Linguistics,Standard and catalogue,"Catalogue of European language technology: tools and services, language resources, organisations and projects",,Web,Per item,https://live.european-language-grid.eu,checked,2026-11-25
 OLAC,Linguistics,Standard and catalogue,Open Language Archives Community search across language archives,,Web,,http://www.language-archives.org,not-checked,
 Glottolog,Linguistics,Standard and catalogue,"Catalogue of languages and references. Gives language IDs, not lemmas",Version 5.4,"Web, download",CC BY 4.0,https://glottolog.org,checked,2026-11-25
-Linguistic Data Consortium,Linguistics,Standard and catalogue,"Catalogue of lexicons and corpora, mostly paid",,Membership or purchase,Per item,https://catalog.ldc.upenn.edu,not-checked,
-ELRA catalogue,Linguistics,Standard and catalogue,European catalogue of lexicons and corpora,,"Purchase or free, per item",Per item,https://catalogue.elra.info,not-checked,
-Hugging Face datasets,Linguistics,Standard and catalogue,"Hub hosting copies of many lexicons, word lists and treebanks",,"Web, Python",Per dataset,https://huggingface.co/datasets,not-checked,
+Linguistic Data Consortium,Linguistics,Standard and catalogue,"Catalogue of lexicons and corpora, mostly paid",Hundreds of holdings,Membership or purchase,Per item,https://catalog.ldc.upenn.edu,checked,2026-11-25
+ELRA catalogue,Linguistics,Standard and catalogue,European catalogue of lexicons and corpora,"About 1,600 speech, text, lexicon and evaluation resources","Purchase or free, per item, through ELDA",Per item,https://catalogue.elra.info,checked,2026-11-25
+Hugging Face datasets,Linguistics,Standard and catalogue,"Hub hosting copies of many lexicons, word lists and treebanks","1,147,363 datasets on 2026-11-25","Web, Python",Per dataset,https://huggingface.co/datasets,checked,2026-11-25
 Mathlib (Lean 4),Mathematics,Formal proof library,"Unified library of formalised definitions, lemmas and theorems","220,675 theorems, 107,386 definitions, 588 contributors (Mathlib statistics page)","GitHub, generated docs",Apache 2.0,https://github.com/leanprover-community/mathlib4,checked,2026-11-25
 Lean Reservoir,Mathematics,Formal proof library,Index of Lean packages beyond Mathlib,,Web,Per package,https://reservoir.lean-lang.org,checked,2026-11-25
 CSLib,Mathematics,Formal proof library,The Lean library for computer science,,GitHub,Apache 2.0,https://github.com/leanprover/cslib,checked,2026-11-25
@@ -100,54 +100,54 @@ Cubical Agda library,Mathematics,Formal proof library,Library for cubical type t
 1Lab,Mathematics,Formal proof library,Formalised and explained reference for univalent mathematics in Agda,,"Web, GitHub",AGPL 3.0 per the repository license file,https://1lab.dev,checked,2026-11-25
 Metamath set.mm,Mathematics,Formal proof library,Theorems proved from ZFC axioms with every step explicit,"48,463 proved statements on 2026-11-25","Web, GitHub",CC0,https://us.metamath.org,checked,2026-11-25
 Metamath other databases,Mathematics,Formal proof library,"Databases beside set.mm: intuitionistic logic, New Foundations, quantum logic","iset.mm 14,462 proofs, nf.mm 5,981, ql.mm 1,178 (mailing-list count)","Web, GitHub",CC0,https://us.metamath.org,checked,2026-11-25
-Mizar Mathematical Library,Mathematics,Formal proof library,Articles of formalised mathematics in the Mizar language,,Download,Check site,http://mizar.org,not-checked,
+Mizar Mathematical Library,Mathematics,Formal proof library,Articles of formalised mathematics in the Mizar language,mizar.org redirects to mizar.uwb.edu.pl. Contents not confirmed,Download,Check site,http://mizar.org,partly-checked,2026-11-25
 HOL Light,Mathematics,Formal proof library,Prover with a large analysis and geometry library,,GitHub,BSD-style. Some files under other licenses,https://github.com/jrh13/hol-light,checked,2026-11-25
 HOL4,Mathematics,Formal proof library,Prover with libraries for mathematics and verification,,GitHub,BSD-style,https://hol-theorem-prover.org,checked,2026-11-25
 Flyspeck,Mathematics,Formal proof library,Formal proof of the Kepler conjecture in HOL Light and Isabelle,,GitHub,MIT,https://github.com/flyspeck/flyspeck,checked,2026-11-25
 ACL2 community books,Mathematics,Formal proof library,Collection of ACL2 lemma libraries,,GitHub,BSD 3-clause,https://www.cs.utexas.edu/~moore/acl2/,checked,2026-11-25
 NASA PVS Library,Mathematics,Formal proof library,Collection of PVS developments in mathematics and engineering,,GitHub,Varies per library. See top.pvs in each,https://github.com/nasa/pvslib,checked,2026-11-25
-TPTP,Mathematics,Formal proof library,Problem library for automated theorem provers,,Download,Check site,https://www.tptp.org,not-checked,
+TPTP,Mathematics,Formal proof library,Problem library for automated theorem provers. The library itself is hosted at tptp.tptp.org,,Download,Not stated. Citation requested,https://www.tptp.org,checked,2026-11-25
 Logipedia,Mathematics,Formal proof library,Proofs translated between provers through Dedukti,Code repository last updated in 2024,Web,No license file in the repository,http://logipedia.inria.fr,partly-checked,2026-11-25
 OpenTheory,Mathematics,Formal proof library,Packages of theorems shareable between HOL provers,,Web,MIT,https://www.gilith.com/opentheory/,checked,2026-11-25
 Formalizing 100 Theorems,Mathematics,Formal proof library,Tracker of which provers have formalised 100 well-known theorems,"Isabelle 92, HOL Light 89, Lean 82, Rocq 79 (per a 2025 talk)",Web,,https://www.cs.ru.nl/~freek/100/,checked,2026-11-25
-ProofWiki,Mathematics,Informal reference,"Wiki of proofs with separate pages for definitions, lemmas and theorems",,"Web, dumps",CC BY-SA,https://proofwiki.org,not-checked,
+ProofWiki,Mathematics,Informal reference,"Wiki of proofs with separate pages for definitions, lemmas and theorems","30,524 proofs and 36,260 definitions","Web, dumps",CC BY-SA 3.0,https://proofwiki.org,checked,2026-11-25
 Stacks Project,Mathematics,Informal reference,Algebraic geometry reference where every lemma has a permanent tag,"21,446 tags. A tag marks one lemma, definition, section or other labelled item","Web, GitHub",GFDL 1.2,https://stacks.math.columbia.edu,checked,2026-11-25
-Kerodon,Mathematics,Informal reference,Higher category theory reference using the Stacks tag system,,Web,Check site,https://kerodon.net,not-checked,
+Kerodon,Mathematics,Informal reference,Online resource for homotopy-coherent mathematics by Jacob Lurie. Every item has a permanent tag,,Web,Not stated on the site,https://kerodon.net,checked,2026-11-25
 nLab,Mathematics,Informal reference,"Wiki for category theory, homotopy theory and related mathematics",,Web,No license file in the content repository. Check site,https://ncatlab.org,partly-checked,2026-11-25
-Wikipedia: List of lemmas,Mathematics,Informal reference,Index of named lemmas,,Web,CC BY-SA,https://en.wikipedia.org/wiki/List_of_lemmas,not-checked,
-Wikipedia: List of theorems,Mathematics,Informal reference,Index of named theorems,,Web,CC BY-SA,https://en.wikipedia.org/wiki/List_of_theorems,not-checked,
-Wolfram MathWorld,Mathematics,Informal reference,Encyclopedia with entries for named lemmas and theorems,,Web,"Proprietary, free to read",https://mathworld.wolfram.com,not-checked,
-Encyclopedia of Mathematics,Mathematics,Informal reference,Reference wiki based on the Springer encyclopedia,,Web,Check site,https://encyclopediaofmath.org,not-checked,
-PlanetMath,Mathematics,Informal reference,Community mathematics encyclopedia,,"Web, GitHub",CC BY-SA,https://planetmath.org,not-checked,
-NIST Digital Library of Mathematical Functions,Mathematics,Informal reference,Identities and properties of special functions,,Web,Free to read,https://dlmf.nist.gov,not-checked,
+Wikipedia: List of lemmas,Mathematics,Informal reference,Index of named lemmas,About 60 named lemmas,Web,CC BY-SA,https://en.wikipedia.org/wiki/List_of_lemmas,checked,2026-11-25
+Wikipedia: List of theorems,Mathematics,Informal reference,Index of named theorems,"More than 800 theorems, grouped by subject",Web,CC BY-SA,https://en.wikipedia.org/wiki/List_of_theorems,checked,2026-11-25
+Wolfram MathWorld,Mathematics,Informal reference,Encyclopedia with entries for named lemmas and theorems,"17,799 entries",Web,Proprietary. See the site's terms of use,https://mathworld.wolfram.com,checked,2026-11-25
+Encyclopedia of Mathematics,Mathematics,Informal reference,Reference wiki based on the Springer encyclopedia,"More than 8,000 entries covering nearly 50,000 notions",Web,Original articles copyright Springer. New wiki content CC BY-SA,https://encyclopediaofmath.org,checked,2026-11-25
+PlanetMath,Mathematics,Informal reference,Community mathematics encyclopedia,,"Web, GitHub",CC BY-SA 2.5,https://planetmath.org,checked,2026-11-25
+NIST Digital Library of Mathematical Functions,Mathematics,Informal reference,Identities and properties of special functions,"Version 1.2.8, released 2026-09-15",Web,See the NIST copyright notice,https://dlmf.nist.gov,checked,2026-11-25
 MathOverflow,Mathematics,Informal reference,"Research-level questions and answers, often the only written source of a folklore lemma",,"Web, data dumps",CC BY-SA,https://mathoverflow.net,not-checked,
 Mathematics Stack Exchange,Mathematics,Informal reference,Questions and answers at all levels,,"Web, data dumps",CC BY-SA,https://math.stackexchange.com,not-checked,
-Tricki,Mathematics,Informal reference,Wiki of proof techniques. No longer actively developed,,Web,Check site,https://www.tricki.org,not-checked,
+Tricki,Mathematics,Informal reference,"Wiki of proof techniques. Static snapshot from August 2020, no longer maintained",,Web,Not stated on the site,https://www.tricki.org,checked,2026-11-25
 Erdős Problems,Mathematics,Informal reference,Database of problems posed by Paul Erdős with their status,"1,221 problems in the community data repository","Web, GitHub data repository",Apache 2.0 for the community data repository,https://www.erdosproblems.com,checked,2026-11-25
-Open Problem Garden,Mathematics,Informal reference,Collection of open problems,,Web,Check site,http://www.openproblemgarden.org,not-checked,
+Open Problem Garden,Mathematics,Informal reference,Collection of open problems,"Category counts add up to 713, with some problems in more than one category",Web,Check site,http://www.openproblemgarden.org,checked,2026-11-25
 Complexity Zoo,Mathematics,Informal reference,Complexity classes and the known relations between them,,Web,Check site,https://complexityzoo.net,not-checked,
 OEIS,Mathematics,Object database,"Integer sequences. Holds objects, not lemmas",,"Web, download",CC BY-SA 4.0,https://oeis.org,checked,2026-11-25
 LMFDB,Mathematics,Object database,"L-functions, modular forms, elliptic curves. Holds objects, not lemmas",,"Web, API",GPL 2 or later for the code. Data terms not confirmed,https://www.lmfdb.org,partly-checked,2026-11-25
 pi-Base,Mathematics,Object database,"Topological spaces, properties and the theorems connecting them","227 spaces, 251 properties, 948 theorems","Web, GitHub",CC BY 4.0,https://topology.pi-base.org,checked,2026-11-25
-Database of Ring Theory,Mathematics,Object database,"Rings, properties and the theorems connecting them",,Web,Check site,https://ringtheory.herokuapp.com,not-checked,
-House of Graphs,Mathematics,Object database,Searchable database of interesting graphs,,Web,Check site,https://houseofgraphs.org,not-checked,
-ISGCI,Mathematics,Object database,Graph classes and their inclusions,,Web,Check site,https://www.graphclasses.org,not-checked,
-FindStat,Mathematics,Object database,Combinatorial statistics and maps,,Web,Check site,https://www.findstat.org,not-checked,
-KnotInfo,Mathematics,Object database,Table of knots and their invariants,,Web,Check site,https://knotinfo.math.indiana.edu,not-checked,
-ATLAS of Finite Group Representations,Mathematics,Object database,Representations and data for finite simple groups,,Web,Check site,https://brauer.maths.qmul.ac.uk/Atlas/v3/,not-checked,
-Encyclopedia of Triangle Centers,Mathematics,Object database,Catalogue of triangle centers and their properties,,Web,Check site,https://faculty.evansville.edu/ck6/encyclopedia/ETC.html,not-checked,
-zbMATH Open,Mathematics,Literature index,Reviews and abstracts of the mathematical literature,,"Web, API",Free to read,https://zbmath.org,not-checked,
-MathSciNet,Mathematics,Literature index,Reviews and index of the mathematical literature,,Subscription,Proprietary,https://mathscinet.ams.org,not-checked,
-arXiv,Mathematics,Literature index,Preprints. Most research lemmas exist only here as LaTeX inside papers,,"Web, bulk access",Per paper,https://arxiv.org,not-checked,
-MaRDI Portal,Mathematics,Literature index,"German research data portal for mathematics, built on a knowledge graph",,"Web, SPARQL",Check site,https://portal.mardi4nfdi.de,not-checked,
-EuDML,Mathematics,Literature index,European Digital Mathematics Library of open-access papers,,Web,Per item,https://eudml.org,not-checked,
-Numdam,Mathematics,Literature index,French digital mathematics library,,Web,Per item,http://www.numdam.org,not-checked,
+Database of Ring Theory,Mathematics,Object database,"Rings, properties and the theorems connecting them",,Web,Not stated on the home page,https://ringtheory.herokuapp.com,checked,2026-11-25
+House of Graphs,Mathematics,Object database,Online database of interesting graphs,,Web,Not stated on the home page,https://houseofgraphs.org,checked,2026-11-25
+ISGCI,Mathematics,Object database,Graph classes and their inclusions,"1,695 classes and 242,975 inclusions",Web,Not stated on the home page,https://www.graphclasses.org,checked,2026-11-25
+FindStat,Mathematics,Object database,Combinatorial statistics and maps,"1,997 statistics and 336 maps",Web,Not stated on the home page,https://www.findstat.org,checked,2026-11-25
+KnotInfo,Mathematics,Object database,"Table of knots and their invariants, queried by crossing number",,Web,Check site,https://knotinfo.math.indiana.edu,partly-checked,2026-11-25
+ATLAS of Finite Group Representations,Mathematics,Object database,Representations and data for finite simple groups,"Version 3.004: about 716 groups and 5,215 representations",Web,Not stated on the home page,https://brauer.maths.qmul.ac.uk/Atlas/v3/,checked,2026-11-25
+Encyclopedia of Triangle Centers,Mathematics,Object database,Catalogue of triangle centers and their properties,Centers up to X(84000),Web,Not stated on the site,https://faculty.evansville.edu/ck6/encyclopedia/ETC.html,checked,2026-11-25
+zbMATH Open,Mathematics,Literature index,Reviews and abstracts of the mathematical literature,,"Web, API",Free to read,https://zbmath.org,partly-checked,2026-11-25
+MathSciNet,Mathematics,Literature index,Reviews and index of the mathematical literature,,Subscription,Proprietary,https://mathscinet.ams.org,partly-checked,2026-11-25
+arXiv,Mathematics,Literature index,Preprints. Most research lemmas exist only here as LaTeX inside papers,More than 3.2 million articles across all fields,"Web, bulk access",Per paper,https://arxiv.org,checked,2026-11-25
+MaRDI Portal,Mathematics,Literature index,"German research data portal for mathematics, built on a knowledge graph",More than 7 million items,"Web, SPARQL",CC BY-SA 4.0 for structured data,https://portal.mardi4nfdi.de,checked,2026-11-25
+EuDML,Mathematics,Literature index,European Digital Mathematics Library of open-access papers,"271,792 items in 14 collections",Web,Per item,https://eudml.org,checked,2026-11-25
+Numdam,Mathematics,Literature index,French digital mathematics library,"75,599 articles in 120 periodicals, 706 books, 416 theses",Web,Per item,http://www.numdam.org,checked,2026-11-25
 TheoremSearch,Mathematics,Search engine,"Semantic search over theorem statements from arXiv, the Stacks Project, ProofWiki and five other sources",Over 9 million statements,"Web, REST API, MCP server, Hugging Face dataset",Check site,https://theoremsearch.com,checked,2026-11-25
 Loogle,Mathematics,Search engine,Pattern and type-based search over Lean declarations,,"Web, editor",Free,https://loogle.lean-lang.org,checked,2026-11-25
 LeanSearch,Mathematics,Search engine,Natural-language search over Mathlib,,Web,Free,https://leansearch.net,checked,2026-11-25
 Moogle,Mathematics,Search engine,Semantic search over Mathlib. The Lean community blog calls it somewhat outdated,,"Web, editor",Free,https://www.moogle.ai,checked,2026-11-25
 LeanExplore,Mathematics,Search engine,Search engine for Lean 4 declarations with MCP integration,,"Web, API",Check paper,https://arxiv.org/abs/2506.11085,checked,2026-11-25
-Mathlib documentation,Mathematics,Search engine,Generated reference of every Mathlib declaration,,Web,Apache 2.0,https://leanprover-community.github.io/mathlib4_docs/,not-checked,
+Mathlib documentation,Mathematics,Search engine,Generated reference of every Mathlib declaration,,Web,Apache 2.0,https://leanprover-community.github.io/mathlib4_docs/,partly-checked,2026-11-25
 Isabelle FindFacts,Mathematics,Search engine,Text search over the Isabelle corpus including the AFP,,Web,Free,https://search.isabelle.in.tum.de,partly-checked,2026-11-25
 Approach0,Mathematics,Search engine,Formula-aware search over mathematics Q&A,Engine repository last updated in 2020,Web,MIT for the search engine code,https://approach0.xyz,partly-checked,2026-11-25
 LeanDojo,Mathematics,Machine learning dataset,Proof states and premises extracted from Mathlib for training provers,,"Python package, download",MIT,https://leandojo.org,checked,2026-11-25
@@ -158,5 +158,5 @@ miniF2F,Mathematics,Machine learning dataset,Benchmark of formalised competition
 ProofNet,Mathematics,Machine learning dataset,Undergraduate statements paired in natural language and Lean,,GitHub,MIT,https://github.com/zhangir-azerbayev/ProofNet,checked,2026-11-25
 PutnamBench,Mathematics,Machine learning dataset,Putnam competition problems formalised in several provers,,GitHub,"Apache 2.0 (Lean 4, Isabelle), MIT (Coq)",https://github.com/trishullab/PutnamBench,checked,2026-11-25
 NaturalProofs,Mathematics,Machine learning dataset,"Theorems, proofs and references from ProofWiki, Stacks and textbooks",,GitHub,MIT,https://github.com/wellecks/naturalproofs,checked,2026-11-25
-Proof-Pile,Mathematics,Machine learning dataset,Mixed corpus of informal and formal mathematics,,Hugging Face,Per source,https://huggingface.co/datasets/hoskinson-center/proof-pile,not-checked,
+Proof-Pile,Mathematics,Machine learning dataset,"Corpus of informal and formal mathematics for training language models, drawn from arXiv, Q&A sites, proof libraries, textbooks and wikis","About 13 GB, 8.3 billion tokens",Hugging Face,Apache 2.0,https://huggingface.co/datasets/hoskinson-center/proof-pile,checked,2026-11-25
 CoqGym,Mathematics,Machine learning dataset,Proofs extracted from Rocq projects for training provers,,GitHub,LGPL 2.1,https://github.com/princeton-vl/CoqGym,checked,2026-11-25
